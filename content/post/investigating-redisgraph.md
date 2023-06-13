@@ -5,9 +5,9 @@ draft: false
 tags: ['advanced', 'graphdb', 'redis', 'tools']
 ---
 
-Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using [RedisGraph PHP Client](https://github.com/kjdev/php-redis-graph) back in late October, as part of my regular scan of the [packagist feed](https://packagist.org/feeds/) for new PHP/Composer packages.
+<img src="/images/RedisGraph-logo.png" title="RedisGraph logo" align="right"> Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using [RedisGraph PHP Client](https://github.com/kjdev/php-redis-graph) back in late October, as part of my regular scan of the [packagist feed](https://packagist.org/feeds/) for new PHP/Composer packages.
 
-The 'kjdev/redis-graph' package is the first example of an interface library to [RedisGraph](https://github.com/RedisLabsModules/RedisGraph) - an [extension module to Redis](https://redislabs.com/community/redis-modules-hub/) that became possible with Redis 4.0's release. Other modules now include Bloom filters, rate-limiting and a JSON type.
+The ['kjdev/redis-graph'](https://packagist.org/packages/kjdev/redis-graph) package is the first example of an interface library to [RedisGraph](https://github.com/RedisLabsModules/RedisGraph) - an [extension module to Redis](https://redislabs.com/community/redis-modules-hub/) that became possible with Redis 4.0's release. Other modules now include Bloom filters, rate-limiting and a JSON type.
 
 This caught my interest. I've been a fan and user of Redis for several years, and it's now a go-to tool that I use for most of my caching needs. I've not used it as a 'serious' database yet though, considering it more as a transient cache. That opinion is changing fast though.
 
@@ -41,12 +41,12 @@ So - I set about writing '[Caxton](https://github.com/alister/caxton)' as a pers
 
 `buildPersons` is called to create as many 'node' items as is needed - I call each one a 'Person'. An internal loop creates a single Node, and then '[yield](http://php.net/manual/en/language.generators.syntax.php#control-structures.yield)'s it to the outside loop, where it's stored in an array for now.
 
-\[gist id="3ecc9d8483b8b3a85b0cde8f04761508" file="SampleGraphBuilder.BuildPersons.php" /\]
+{{< gist alister 3ecc9d8483b8b3a85b0cde8f04761508 SampleGraphBuilder.BuildPersons.php >}}
 
 Each node added is passed to the library to store, and then is committed to the database in groups of up to 128. The first 1% of the users are marked as a little special - they can connect to the rest. I pick a random number of the other 'Persons' (up to 2,500), and then they are linked:
 
 ```
-MATCH (r:Person),(c:Person) WHERE r.username = '{$username}' AND c.username = '{$linkToPerson}' 
+MATCH (r:Person),(c:Person) WHERE r.username = '{$username}' AND c.username = '{$linkToPerson}'
 CREATE (r)-\[:link\]->(c)
 # Adding an index on 'username' speeds up this search immensely.
 ```
@@ -62,6 +62,7 @@ Where I create the `[link]` clause, I also add some other properties. I'm not cu
 >  75000/75000 \[============================\] 100%
 > Build connections.
 >  104832/196641 \[==============>-------------\]  53%
+```
 
 Running queries
 ---------------
@@ -71,11 +72,12 @@ Finding the number of links to each user (even with over 195,000 such links) is 
 ```
 $query = 'MATCH (r:Person)-\[x:link\]->(:Person) RETURN r.username,COUNT(x)';
 $result = $graph->query($query);
+```
 
 Total number of links
-+----------------------+-------------+
+
 | r.username           | COUNT(x)    |
-+----------------------+-------------+
+| :--------------------| ----------: |
 | alexandre44          | 1679.000000 |
 | alejandra68          | 172.000000  |
 | alison37             | 1302.000000 |
@@ -87,38 +89,38 @@ Total number of links
 | annabell94           | 806.000000  |
 | annetta08            | 157.000000  |
 | acole                | 690.000000  |
-# etc
+| etc... |
 
 Finding all the links from a particular person took just 20.9ms in this example - including retrieving and parsing the results to something that can be easily displayed, or used.
 
 ```
-MATCH (r:Person)-\[:link\]->(c:Person) WHERE r.username = '{$username}' 
+MATCH (r:Person)-\[:link\]->(c:Person) WHERE r.username = '{$username}'
 RETURN r.username,c.username,c.name,c.setDate";
+```
 
 All links from cartwright.malika
-+-------------------+---------------+-----------------+-------------------+
+
 | r.username        | c.username    | c.name          | c.setDate         |
-+-------------------+---------------+-----------------+-------------------+
+| ------------------|---------------|-----------------|:------------------|
 | cartwright.malika | oherman       | Gerard Haley    | 0.000000          |
 | cartwright.malika | arch54        | Frederic Koss   | 0.000000          |
 | cartwright.malika | boyle.glennie | Aliza Anderson  | 1530409683.000000 |
 | cartwright.malika | malvina11     | Shanie Lindgren | 0.000000          |
 | cartwright.malika | abigail42     | Cleta Lind MD   | 1484453700.000000 |
-# etc
+| etc....           |
 
 Even with a more complex search, (between two dates, stored as INTs) and an `ORDER BY`, returning 273 results out of 901 links from this user, the total time to search and return the data is just 5.4ms, though the library also reports an internal time taken of just over 3.85ms.
 
 ```
 $today = 1544031124; // epoch, Dec 05 2018 17:32:04
-$query = "MATCH (r:Person)-\[:link\]->(c:Person) 
-    WHERE (r.username='{$username}') 
-        AND (c.setDate > 0) AND (c.setDate < {$today}) 
-    RETURN r.username,c.username,setDate,c.updatedAt  
+$query = "MATCH (r:Person)-\[:link\]->(c:Person)
+    WHERE (r.username='{$username}')
+        AND (c.setDate > 0) AND (c.setDate < {$today})
+    RETURN r.username,c.username,setDate,c.updatedAt
     ORDER BY r.username,c.username,c.setDate";
 
-+------------+----------------+-------------------+-------------------+
 | r.username | c.username     | c.setDate         | c.updatedAt       |
-+------------+----------------+-------------------+-------------------+
+|------------|----------------| :-----------------| :-----------------|
 | ibernhard  | adriel.gleason | 1524731283.000000 | 1526763937.000000 |
 | ibernhard  | aheidenreich   | 1525008374.000000 | 1496206048.000000 |
 | ibernhard  | aileen.schumm  | 1503427894.000000 | 1504939394.000000 |
@@ -126,11 +128,12 @@ $query = "MATCH (r:Person)-\[:link\]->(c:Person)
 | ibernhard  | alexys.stokes  | 1494405825.000000 | 1498136432.000000 |
 | ibernhard  | allene.weber   | 1503973246.000000 | 1500810582.000000 |
 # etc
+```
 
 Memory use
 ----------
 
-My third question was "How much space does data take up?", and just after the script has run, Redis reports '"used\_memory" => 65,966,216 or about ~63MB.'. (My almost empty Redis instance - just after a restart - reports 'used\_memory:876704', 856.16K in comparison).
+My third question was "How much space does data take up?", and just after the script has run, Redis reports `"used_memory" => 65,966,216` or about ~63MB.'. (My almost empty Redis instance - just after a restart - reports `used_memory:876704`, 856.16K in comparison).
 
 A little more interesting is after the server is restarted with the sample data inserted - all the data is still there, thanks to the regular dumps to disk, but now the server reports a lot less memory used: `used_memory_human:32.82M`.
 
@@ -149,12 +152,13 @@ There is a bulk-import command, though the format isn't well described and it do
 Summary
 -------
 
-[![](https://phpscaling.com/files/2018/12/RedisGraph-logo.png)](https://phpscaling.com/files/2018/12/RedisGraph-logo.png)With my tests, RedisGraph looks to be more than fast enough to create useful graph database today, and to query them in some potentially complex ways. Even running on a low-spec home server, it's adding several thousands of nodes, and then connecting them with more than a thousand edges per second. With a higher-spec, more production ready system, I'd expect to see many multiples of that. The limitations are well understood, with currently incomplete support for the Cypher query language, and the simple fact that Redis runs from memory (but can easily save that to disk for persistence).
+<img src="/images/RedisGraph-logo.png" title="RedisGraph logo" align="left"> With my tests, RedisGraph looks to be more than fast enough to create useful graph database today, and to query them in some potentially complex ways. Even running on a low-spec home server, it's adding several thousands of nodes, and then connecting them with more than a thousand edges per second. With a higher-spec, more production ready system, I'd expect to see many multiples of that. The limitations are well understood, with currently incomplete support for the Cypher query language, and the simple fact that Redis runs from memory (but can easily save that to disk for persistence).
+<!-- [![](https://phpscaling.com/files/2018/12/RedisGraph-logo.png)](https://phpscaling.com/files/2018/12/RedisGraph-logo.png) -->
 
 ```
-+------------------------+-----------------+
+
 |                        | Counts/Duration |
-+------------------------+-----------------+
+| -----------------------| ----------------|
 | persons built          |     75,000      |
 | total 'edges'          |    181,215      |
 | build persons duration |     13,848.4 ms |
@@ -162,15 +166,8 @@ Summary
 | build edges per/sec    |      1,287.92   |
 | build-edges duration   |    140,703.5 ms |
 | search links duration  |         18.7 ms |
-+------------------------+-----------------+
-```
+
 
 This looks to be a great tool, mixing the flexibility of graph databases, NoSQL and Redis for the in-memory databases for a surprising amount of data in a quite small amount of (RAM) space - while keeping the functionality that Redis is so well known for with data-structures like the hash for 'NoSql' style schema-less data storage and retrieval.
 
 I'm looking forward to using it for some interesting things.
-
-
-```
-```
-```
-```

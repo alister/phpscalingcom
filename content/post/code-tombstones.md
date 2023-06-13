@@ -11,7 +11,7 @@ In a large project - particularly one in a dynamic language like PHP, as a proje
 
 This can be even more difficult in a full-stack framework like Symfony or Laravel, where some of the code is only run via the framework - such as Event Listeners/Subscribers, or the authentication layer.
 
-Code test-coverage is good, but unit tests can't tell you if the code \*isn't\* being used elsewhere. You can spend time updating code, and the tests that just aren't useful.
+Code test-coverage is good, but unit tests can't tell you if the code *isn't* being used elsewhere. You can spend time updating code, and the tests that just aren't useful.
 
 In late 2015, I came across an interesting potential solution - '**Code Tombstones**'. They are a more refined version of an exception or simple echo/die. In production all they do is make a log entry - 'I was here'. In a development environment, you might choose to immediately quit and complain - having the developer investigate if the code is genuinely useful or not..
 
@@ -24,7 +24,7 @@ Using a tombstone():
 
 They are all just simple strings that will just be output as-is if the function is called, but knowledge is power when it comes to tracking down what is happening.
 
-\[gist id="8e3aa440c08b16c6ed48a0e52ff977d5" file="example.php" /\]
+{{< gist alister 8e3aa440c08b16c6ed48a0e52ff977d5 example.php >}}
 
 You could also put the call into a branch (one choice of an \`if\` statement, for example). You can even put in into a PHP file outside of a class - though this will risk a large number of 'ordinary failures' because PHPunit (for example) will often read many files to find testing code, and so any code outside of a class in a file will be run, showing an error.
 
@@ -35,7 +35,7 @@ This gets a little more interesting, because you may well want to have different
 
 In a production environment - the whole point is to just log and then continue.
 
-\[gist id="8e3aa440c08b16c6ed48a0e52ff977d5" file="app.php" /\]
+{{< gist alister 8e3aa440c08b16c6ed48a0e52ff977d5 app.php >}}
 
 In my prod-ready tombstone(), you see I also take the further step of catching any errors to then swallow them - you would not want testing code to break your live site!
 
@@ -45,7 +45,9 @@ The library I use to write the logs comes from [Christian Scheb](https://github.
 
 * * *
 
-Video from [http://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code](http://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code)
+{{< youtube 29UXzfQWOhQ >}}
+
+Video from [http://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code](https://web.archive.org/web/20220111111029/https://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code)
 
 David Schnepper's Ignite talk, "Isn't That Code Dead?" - Velocity Santa Clara 2014
 

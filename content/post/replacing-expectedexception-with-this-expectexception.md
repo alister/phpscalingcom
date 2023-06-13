@@ -2,7 +2,8 @@
 title: 'Replacing @expectedException with $this->expectException()'
 date: Tue, 08 Aug 2017 18:59:44 +0000
 draft: false
-tags: ['php', 'testing', 'tools']
+tags: ['php', 'testing', 'tools', 'phpunit']
+series: phpunit
 ---
 
 One of the advantages of a side-project is that you can be a little extra passionate about getting things _just right_. If you want to increase code coverage because you think that it's good, you can - after all, it's just some time now doing things that you like.
@@ -14,28 +15,29 @@ Well, a couple of days ago, I had the time to take a look at it, just a simple -
 The idea itself is quite simple - take a piece of code like such:
 
 ```
-`use App\CanThrowAnException;
+use App\CanThrowAnException;
 use App\Exception\Complicated;
 
 /**
  * Pass the test if an exception is thrown
- * 
+ *
  * // assert what should be happening
  * @expectedException \App\Exception\Complicated
  */
 function testException()
 {
     // setup the situation
-    $systemUnderTest = new CanThrowAnException();` 
+    $systemUnderTest = new CanThrowAnException();`
 
- `// act
+    // act
     $systemUnderTest->shouldThrowComplicated();
-}` 
+}
+```
 
 ... to the newer style, '$this->expectException(...)', which came in with [PHPUnit 5.2](https://github.com/sebastianbergmann/phpunit/wiki/Release-Announcement-for-PHPUnit-5.2.0).
 
 ```
-`use App\CanThrowAnException;
+use App\CanThrowAnException;
 use App\Exception\Complicated;
 
 /**
@@ -47,11 +49,12 @@ function testException()
     $systemUnderTest = new CanThrowAnException();
 
     // assert what should be happening
-    $this->expectException(Complicated::class);` 
+    $this->expectException(Complicated::class);`
 
- `// act
+    // act
     $systemUnderTest->shouldThrowComplicated();
-}` 
+}
+```
 
 This gives a couple of advantages -
 
@@ -63,7 +66,7 @@ The rewriting from the annotation to function call is almost trivial, and there 
 ```
 @expectedExceptionCode -> $this->expectExceptionCode(int $code);
 @expectedExceptionMessage -> $this->expectExceptionMessage($msgToExpect);
-@expectedExceptionMessageRegExp -> $this->expectExceptionMessageRegExp($regexp); 
+@expectedExceptionMessageRegExp -> $this->expectExceptionMessageRegExp($regexp);
 ```
 
 The last thing I did before moving on was make sure that new `@expectedException` annotations didn't creep back into the codebase. For that, I got a little 'hack-y'. There are probably better ways to do it (with a [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) sniff), but I couldn't find an easy way with a quick search - so I built my own.
@@ -92,21 +95,17 @@ So, in my main build.xml file - I setup a couple of searches in the src/ and tes
             </or>
         </condition>
     </fail>
-</target> 
+</target>
 ```
 
 I've added that check to my php-linting action, which is run by default when `ant` is run.
 
 ```
-<target name="php-lint-ci" depends="get-changeset.php.spacesep,noExpectedException" 
-    if="changeset.php.notempty" 
+<target name="php-lint-ci" depends="get-changeset.php.spacesep,noExpectedException"
+    if="changeset.php.notempty"
     description="Perform syntax check of sourcecode files in parallel">
     <!-- run `php -l` on the files for a quick safety check -->
-</target> 
+</target>
 ```
 
 So, that's the latest addition to my 'personal-ci' workflow, updating to the latest best-practices in testing exceptions with PHPUnit, and making sure that the old-style annotations can't be used in future.
-
-
-```
-```

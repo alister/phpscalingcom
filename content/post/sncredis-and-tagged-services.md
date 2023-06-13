@@ -26,36 +26,36 @@ sncRedisDBs:
     4: DoctrineMeta
     5: Sessions
     7: Queue
-``` 
+```
 
 That's easy enough to refer to or use, and also to keep up to date since it's right next to the configuration. But, I'm a developer that loves to write code, and hates to keep documentation up to date, so I spent a few hours coding to allow the code to document the configuration.
 
-That's what the Symfony Aliases and tags allow for - it's easy to fetch the data, and get the information about the database from Redis to be shown with what I've named database  - the 'alias' I've set in the configuration, and so now I can use that name to be able to find out more about the contents of the database. [![](https://phpscaling.com/files/2017/09/redis-list-keys.png)](https://phpscaling.com/files/2017/09/redis-list-keys.png)
+That's what the Symfony Aliases and tags allow for - it's easy to fetch the data, and get the information about the database from Redis to be shown with what I've named database  - the 'alias' I've set in the configuration, and so now I can use that name to be able to find out more about the contents of the database. [![](/images/redis-list-keys.png)](/images/redis-list-keys.png)
 
 Here's sample output of a fairly simple Symfony command I've written. If there's no specific parameters of something to look at - it shows the list of databases and their aliases. Alternatively, I can use the name (here, 'default' or Redis dbNum:1) to get an item from the Redis database. Currently, that's just an index into a dumped list - but it's just as easy to get a named entry.
 
 So, how can we get the details of the Redis clients, which refer to the databases inside Redis itself?  There are a few moving pieces:
 
 1.  Add a CompilerPass - this sends the container, to some code that can collect data from it, before it is finished which will remove unused services and information.
-2.  In the CompilerPass, find all the services tagged with the 'snc\_redis.client' tag, and store the data required (in this instance, the Redis client, and the 'alias' that it is known as).
+2.  In the CompilerPass, find all the services tagged with the 'snc_redis.client' tag, and store the data required (in this instance, the Redis client, and the 'alias' that it is known as).
 3.  Create a service to hold the data that the CompilerPass finds, and be able to retrieve it on demand
 
 Lets go through them step class by class.
 
-1.  Adding the CompilerPass - This is quite easy - we can create and add the relevant class right in the Symfony Framework's core AppKernel.php class. You can also add the CompilerPass from within a bundle configuration, if you have any.
+1.  Adding the CompilerPass - This is quite easy - we can create and add the relevant class right in the Symfony Framework's core `AppKernel.php` class. You can also add the CompilerPass from within a bundle configuration, if you have any.
 
-\[gist id="6d149871170cdf0c769fa4f833aeb112" file="AppKernel.php" /\]
+{{< gist alister 6d149871170cdf0c769fa4f833aeb112 AppKernel.php >}}
 
-1.  The CompilerPass itself finds the tagged services (themselves created in SncRedis from the configuration), and arranges for them to be added to a holding service (the \`AppBundle\\SncRedis\\ClientsList\` class/service). Because each service could have more than one tag attached, we loop the list of potential tags, and have them added to the ClientList.
+2.  The CompilerPass itself finds the tagged services (themselves created in SncRedis from the configuration), and arranges for them to be added to a holding service (the `AppBundle\SncRedis\ClientsList` class/service). Because each service could have more than one tag attached, we loop the list of potential tags, and have them added to the ClientList.
 
-\[gist id="6d149871170cdf0c769fa4f833aeb112" file="ClientsListPass.php" /\]
+{{< gist alister 6d149871170cdf0c769fa4f833aeb112 ClientsListPass.php >}}
 
-1.  Finally, the \`AppBundle\\SncRedis\\ClientsList\` class/service itself. A very simple store and retrieve. We can also get all the data, or just for a specifically named service, if it exists.
+3.  Finally, the `AppBundle\SncRedis\ClientsList` class/service itself. A very simple store and retrieve. We can also get all the data, or just for a specifically named service, if it exists.
 
-\[gist id="6d149871170cdf0c769fa4f833aeb112" file="ClientsList.php" /\]
+{{< gist alister 6d149871170cdf0c769fa4f833aeb112 ClientsList.php >}}
 
 So - now we have a service that can store the data - how to use it? Get the service (which only then fills the information), get the clients and loop around to collect the parts of the information we need!
 
-\[gist id="6d149871170cdf0c769fa4f833aeb112" file="DisplayRedisClients.php" /\]
+{{< gist alister 6d149871170cdf0c769fa4f833aeb112 DisplayRedisClients.php >}}
 
-Once you have the name of the alias name of the queue, it's simple to use that as part of the name of the snc\_redis client service name, and so collect data about, or from the Redis Database service itself.
+Once you have the name of the alias name of the queue, it's simple to use that as part of the name of the snc_redis client service name, and so collect data about, or from the Redis Database service itself.

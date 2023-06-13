@@ -3,9 +3,10 @@ title: 'Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger'
 date: Thu, 11 Jun 2015 13:04:07 +0000
 draft: false
 tags: ['best-practice', 'phpunit', 'testing', 'tools']
+series: phpunit
 ---
 
-Having just watched Sebastian Bergmann's ["The State of PHPUnit" presentation](https://vimeo.com/130405526) from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.
+Having just watched Sebastian Bergmann's ["The State of PHPUnit" presentation](https://ftp.belnet.be/mirror/FOSDEM/video/2015/devroom-php_and_friends/thestateofphpunit.mp4) from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.
 
 `composer global require "phpunit/phpunit"`
 
