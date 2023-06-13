@@ -3,12 +3,13 @@ author: Hugo Authors
 title: Using Notices
 date: 2021-08-20
 description: Using Notices functionality within this theme
+expiryDate: 1900-01-01
 ---
 
 The "Notices" shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.
 
-To create a notice on a page, you can use the `notice` shortcode.  
-You use the `notice` shortcode, with the first parameter being one of `note`, `info`, `tip`, and `warning`.  Then add a title for your 
+To create a notice on a page, you can use the `notice` shortcode.
+You use the `notice` shortcode, with the first parameter being one of `note`, `info`, `tip`, and `warning`.  Then add a title for your
 note in quotes as the second parameter.  The inner body of the note can be whatever markdown you want to create.
 
 The following shortcode syntax within a markdown doc:
@@ -41,10 +42,10 @@ Here is the "warning" flavor of a notice.
 Also note that the content of a notice can contain anything you could put on a normal page - as shown below:
 
 {{% notice tip "Complex Notices are Possible!" %}}
-This is a notice that has a lot of various kinds of content in it.  
+This is a notice that has a lot of various kinds of content in it.
 
 * Here is a bulleted list
-* With more than one bullet 
+* With more than one bullet
     * And even more than one level
 
 Code blocks are fine here, too....

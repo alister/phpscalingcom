@@ -18,6 +18,7 @@ categories = [
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
 thumbnail = "images/building.png"
+expiryDate = 1900-01-01
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

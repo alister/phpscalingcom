@@ -20,6 +20,7 @@ tags:
   - Hugo
 series:
   - Themes Guide
+expiryDate: 1900-01-01
 ---
 
 [Page bundles](https://gohugo.io/content-management/page-bundles/) are an optional way to [organize page resources](https://gohugo.io/content-management/page-resources/) within Hugo.
