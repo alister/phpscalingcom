@@ -2,20 +2,21 @@
 enableSearch = true
 
 # socials
-twitter = "@janedoe"
+twitter = "@alister_b"
+#TODO mastodon = "https://mastodon.cloud/@Alister"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+keywords = ["php", "scaling", "phpscaling"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
-# showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
+showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
-# Google analytics Id
-ga_analytics = ""
+# # Google analytics Id
+# ga_analytics = ""
 
-# Google tag manager
-google_tag_manager_id = ""
+# # Google tag manager
+# google_tag_manager_id = ""
 
 # Baidu analytics Id
 # baidu_analytics = "XXXXXXXX"
@@ -58,10 +59,10 @@ logo = "logos/logo.png"
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
 # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
-codeMaxLines = 7
+codeMaxLines = 12
 
 # disable showing line numbers by default. Switch to `true` if you'd rather have them on.
-codeLineNumbers = false
+codeLineNumbers = true
 
 # enable math notation. Switch to `true` to enable mathjax in your site.
 enableMathNotation = false
@@ -95,6 +96,7 @@ enforceLightMode = false
 
 # Text for the languages menu.
 languageMenuName = "🌐"
+# TODO remove languageMenu from templates
 
 # Title separator, default to |.
 # titleSeparator = "|"
@@ -102,6 +104,7 @@ languageMenuName = "🌐"
 # Enable or disable comments globally. Default to true.
 # comments = false
 
+# TODO https://utteranc.es/
 # Enable or disable Utterances (https://github.com/utterance/utterances) Github Issue-Based Commenting
 # utterances = true  # Run the utterances script in the single.html layout to load https://utteranc.es comments
 # utterancesRepo = "GHUsername/Repository.Name" # Utterances is enabled when this param is set
@@ -127,7 +130,7 @@ languageMenuName = "🌐"
 
 # The year when ths website was created, this value is used in the copyright
 # notice of the footer.
-# since = 2016
+# since = 2008
 
 # Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
 # showRelatedInArticle = false
@@ -135,17 +138,17 @@ languageMenuName = "🌐"
 
 # website author
 [author]
-name = "Jane Doe"
+name = "Alister Bulman"
 # photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
 
-[plausible_analytics]
-enable = false # to enable plausible analytics set to true.
-websiteDomain = "example.com" # domain name of your website, most cases same as your base url
-# plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
-# scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
+# [plausible_analytics]
+# enable = false # to enable plausible analytics set to true.
+# websiteDomain = "example.com" # domain name of your website, most cases same as your base url
+# # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
+# # scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
 
-[matomo_analytics]
-enable = false # To enable matomo analytics change to `true`.
-websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
-matomoDomain = "matomo.example.com" # Set to Matomo domain
-matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
+# [matomo_analytics]
+# enable = false # To enable matomo analytics change to `true`.
+# websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
+# matomoDomain = "matomo.example.com" # Set to Matomo domain
+# matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked

@@ -9,23 +9,33 @@
   weight = -109
 
 # Submenus are done this way: parent -> identifier
-[[main]]
-  name = "Links"
-  identifier = "Links"
-  weight = -108
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -108
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/"
 
 [[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = -105
+
+[[main]]
+  name = "Contact"
+  url = "contact/"
+  weight = -100
+
+[[main]]
+  name = "Favourite tools"
+  url = "favourite-tools/"
+  weight = -95
 
 # social menu links
 
@@ -33,18 +43,22 @@
   name = "github"
   type = "social"
   weight = 1
-  url = "https://github.com/#"
+  url = "https://github.com/alister"
 [[social]]
-  name = "twitter"
+  name = "Mastodon"
   weight = 2
-  url = "https://twitter.com/#"
+  url = "https://mastodon.cloud/@Alister"
+[[social]]
+  name = "stackoverflow"
+  weight = 3
+  url = "https://stackoverflow.com/users/6216/alister-bulman"
 [[social]]
   name = "linkedin"
-  weight = 3
-  url = "https://www.linkedin.com/in/#"
+  weight = 5
+  url = "https://www.linkedin.com/in/alisterbulman/"
 [[social]]
   name = "rss"
-  weight = 4
+  weight = 9
   url = "index.xml"
 
 # other supported social links
@@ -54,8 +68,6 @@
 # url = "https://facebook.com/#"
 # name = "instagram"
 # url = "https://instagram.com/#"
-# name = "stackoverflow"
-# url = "https://stackoverflow.com/#"
 # name = "gitlab"
 # url = "https://gitlab.com/#"
 # name = "discord"
