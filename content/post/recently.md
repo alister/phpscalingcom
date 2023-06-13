@@ -17,6 +17,10 @@ Rest assured, there's been plenty of relaxing since I finished that project a co
 
 ### Puppet and Github
 
+{{% notice info "Alister & 'Devops'" %}}
+I'm no longer concentrating on 'Devops' and certainly not Puppet. While I do have some skills (though more recently with Ansible and some use of Kubernetes), I'm spending most of my time mostly writing PHP & Symfony. - Alister, June 2023
+{{% /notice %}}
+
 In the last couple of weeks, I've been a software developing machine. I've also been looking for my next contract role, hopefully something to start just after Easter - though, as I write this, exactly what that will be is still up in the air.
 
 First, I've been putting together a development VM - currently based on a beta of Ubuntu 12.04. There are a few things that go into making it.

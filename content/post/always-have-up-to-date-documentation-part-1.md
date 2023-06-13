@@ -3,9 +3,10 @@ title: 'Always have up to date documentation, part #1'
 date: Sun, 16 Mar 2008 23:41:00 +0000
 draft: false
 tags: ['php', 'tools']
+series: php-documentation
 ---
 
-As I mentioned in my second post, [ZCE prep – and dumb tests](/2008/03/10/zce-prep-and-dumb-tests-2/) - about open book tests (like Brainbench), having a copy of all the relevant documentation can be incredibly useful, if only from a speed issue. Knowing you can just open a new tab and type a few words to get the information on a function, or concept from the manual takes away so many problems.
+As I mentioned in my second post, [ZCE prep – and dumb tests](/post/zce-prep-and-dumb-tests-2/) - about open book tests (like Brainbench), having a copy of all the relevant documentation can be incredibly useful, if only from a speed issue. Knowing you can just open a new tab and type a few words to get the information on a function, or concept from the manual takes away so many problems.
 
 I mentioned there that I have a local copy of the main [PHP manual](http://php.net/manual/en/) – and I wanted to tell you how I keep it, and a couple of other manuals up to date, as well as other documentation.
 
@@ -17,7 +18,7 @@ If you have a linux server (or a Mac OSX would be able to do it as well I expect
 
 Here's my script I use - taken almost verbatim from the above mirroring.php page:
 
-\[gist id=1385967\]
+{{< gist alister 1385967 >}}
 
 It may look a little more complicated than it it - but in short, it goes to the server at rsync.php.net, and gets the English version of the manual, but not the others, and it also doesn't bother downloading the large source files. In fact, the two largest parts of the site that is mirrored are the manual itself (currently some 44MB) and the manual backend (which includes all the notes, and most usefully, the lookup functions).
 

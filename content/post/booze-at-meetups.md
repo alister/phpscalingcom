@@ -5,7 +5,7 @@ draft: false
 tags: ['meetups', 'Aside', 'quick', 'rants']
 ---
 
-[![](https://www.phpscaling.com/wp-content/blogs.dir/6/files/2011/12/lg-go-away-tshirt.jpg)](http://www.thinkgeek.com/tshirts-apparel/unisex/frustrations/374d/)I was out last night at the [The Big Xmas \[bash\] #](http://lanyrd.com/2011/the-big-xmas-bash/), near Silicon Roundabout. It was a fun night out meeting various people, tech, business and recruiters. _Oh, the shame_ though - I was wearing the same T-shirt as someone else - and, yes, I have indeed replaced people with small shell scripts.
+![Go away t-shirt :right](/images/lg-go-away-tshirt.jpg) I was out last night at the [The Big Xmas \[bash\] #](http://lanyrd.com/2011/the-big-xmas-bash/), near Silicon Roundabout. It was a fun night out meeting various people, tech, business and recruiters. _Oh, the shame_ though - I was wearing the same T-shirt as someone else - and, yes, I have indeed replaced people with small shell scripts.
 
 Now, to the main part of what this post is about - the **rant**. It's not aimed at the particular event last night alone though. It's alcohol at various tech-meetups in general. Look guys, you generally end up buying too much anyway, and all too often its also to the exclusion of those that may prefer to not get inebriated.
 

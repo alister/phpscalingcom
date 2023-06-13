@@ -14,7 +14,7 @@ I installed it as a new, global, tool because in my project I am using the "[ibu
 
 A good part of the reason to do so - beyond using the latest version - was also to enable the strict tests
 
-```
+```xml
 <phpunit
     beStrictAboutTestsThatDoNotTestAnything="true"
     checkForUnintentionallyCoveredCode="true"
@@ -28,7 +28,7 @@ A good part of the reason to do so - beyond using the latest version - was also 
 
 This blogpost is to help someone else that tries it - and comes across the same issue I did:
 
-> PHP Fatal error: Class PHPUnit\_Util\_DeprecatedFeature\_Logger contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (PHPUnit\_Framework\_TestListener::addRiskyTest) in ...vendor/phpunit/phpunit/PHPUnit/Util/DeprecatedFeature/Logger.php on line 201
+> PHP Fatal error: Class PHPUnit_Util_DeprecatedFeature_Logger contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (PHPUnit_Framework_TestListener::addRiskyTest) in ...vendor/phpunit/phpunit/PHPUnit/Util/DeprecatedFeature/Logger.php on line 201
 
 My fix was simple - it took some systematic editing of the phpunit.xml file to figure it out. At first, I tried commenting out the various add-on I've got for PHPunit, tools to report slow tests, and to automatically close and check the results of any Mockery expectations. None of them helped, and so I started on the parameters in the opening XML tag of the file.
 

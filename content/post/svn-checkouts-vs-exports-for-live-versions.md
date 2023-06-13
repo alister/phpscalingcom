@@ -15,13 +15,15 @@ If there is ever a problem, rolling back to a previous live version is just as e
 
 There are some downsides - with a complete checkout of a 40-some megabyte website (it's mostly the Zend Framework and other libraries from which I use a number of files, though rarely all), it takes a little while (not too long, it's a gigabit link between the repository and the main webserver) and there are also some potential caching issues (Etags are usually based on the file inodes), but as we plan to move to a multi-machine cluster - and the images aren't being served from Apache, but a dedicated image webserver, that's not a significant issue - and even on Apache we don't have Etags enabled (Yslow from Yahoo also suggests that).
 
-\[gist id=1385857\]
+{{< gist alister 1385857 >}}
 
 Update:  Since I first posted this, I've started using Capistrano. Look out for new posts on how to best use that.
+
 ---
+
 ### Comments:
-#### 
-[Deployment with Capistrano &#8211; the Gotchas | PHP Scaling](http://www.phpscaling.com/2011/11/24/deployment-with-capistrano-the-gotchas/ "") - <time datetime="2011-11-24 12:17:01">Nov 4, 2011</time>
+
+[Deployment with Capistrano &#8211; the Gotchas | PHP Scaling](/post/deployment-with-capistrano-the-gotchas/) - <time datetime="2011-11-24 12:17:01">Nov 4, 2011</time>
 
 \[...\] and entirely workable system – I described something just like this in a previous post: “SVN checkouts vs exports for live versions”. That was written and used before I was deploying to multiple machines however – and had to \[...\]
 <hr />

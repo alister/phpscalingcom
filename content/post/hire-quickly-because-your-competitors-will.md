@@ -2,7 +2,7 @@
 title: 'Hire quickly, because your competitors will.'
 date: Thu, 05 Jan 2012 13:11:01 +0000
 draft: false
-tags: ['hiring', 'hiring', 'rants']
+tags: ['hiring', 'rants']
 ---
 
 If you aren't taking hiring seriously - other people can, and do hire the people you need.

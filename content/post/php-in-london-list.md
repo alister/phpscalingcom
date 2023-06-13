@@ -2,7 +2,7 @@
 title: 'PHP-in-London list'
 date: Tue, 29 Aug 2017 10:27:18 +0000
 draft: false
-tags: ['php']
+tags: ['php', 'jobs']
 ---
 
 While Twitter can be _really_ annoying, sometimes it can help to promote some wonderfully simple ideas.
@@ -13,8 +13,7 @@ What it can enable is of mutual advantage to the companies, and developers that 
 
 [https://github.com/alister/php-in-london](https://github.com/alister/php-in-london)
 
-PHP-In-London, (UK)
--------------------
+### PHP-In-London, (UK)
 
 There are a lot of companies in London that use PHP, and it is hard to keep track. If you know of any PHP companies with offices in the (Greater) London area (within ~20 miles), add them with a quick pull request (you can also edit directly from within the Github website if you want).
 
@@ -32,11 +31,16 @@ To help spread the PR and Github Karma, when someone asked to add a new item to 
 *   Richard George, [@parsingphase](https://github.com/parsingphase)
 *   Craig Willis, [@craigwillis85](https://github.com/craigwillis85)
 
-### Awesome\_Bot
+### Awesome_Bot
 
-As a developer, I know well that anything worth doing, is worth testing, so I looked around and realised that there was indeed a way to test the URLs that were in the list. It's called 'Awesome\_Bot', and it is mostly aimed at the various 'Awesome ' lists that helped to inspire the list in the first place. Setting it up with Travis isn't hard, and so I've also enabled that.
+As a developer, I know well that anything worth doing, is worth testing, so I looked around and realised that there was indeed a way to test the URLs that were in the list. It's called 'Awesome_Bot', and it is mostly aimed at the various 'Awesome ' lists that helped to inspire the list in the first place. Setting it up with Travis isn't hard, and so I've also enabled that.
 
-\[gist id="16e206eeed6cdf48c30d6099d1a858d3" file=".travis.yml" /\]
+{{< gist alister 16e206eeed6cdf48c30d6099d1a858d3 ".travis.yml" >}}
+
+{{% notice tip "Updated" %}}
+I'm now using [Github Workflows](https://github.com/alister/php-in-london/blob/master/.github/workflows/is_awesome.yml), rather than Travis.
+{{% /notice %}}
+
 
 It has taken a little tweaking of the configuration (even this morning, when I added Travis-CI to the whitelist to allow for redirects of the SVG build status button), but it has also helped to catch a couple of problems.
 

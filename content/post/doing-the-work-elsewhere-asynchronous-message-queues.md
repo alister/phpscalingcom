@@ -3,16 +3,16 @@ title: 'Doing the work elsewhere - Asynchronous Message Queues'
 date: Wed, 10 Jun 2009 15:43:29 +0000
 draft: false
 tags: ['advanced', 'beanstalkd', 'php', 'queues', 'scaling', 'workers']
+series: queues
 ---
 
-The use of Beanstalkd as a queueing system
-------------------------------------------
+## The use of Beanstalkd as a queueing system
 
 ### What is an asynchronous queue
 
 The classic [wikipedia quote (Message queue)](http://en.wikipedia.org/wiki/Message_queue)
 
-In computer science, message queues and mailboxes are software-engineering components used for interprocess communication, or for inter-thread communication within the same process. They use a queue for messaging - the passing of control or of content. Group communication systems provide similar kinds of functionality.
+> In computer science, message queues and mailboxes are software-engineering components used for interprocess communication, or for inter-thread communication within the same process. They use a queue for messaging - the passing of control or of content. Group communication systems provide similar kinds of functionality.
 
 So one part of a system puts a message into a queue for another part to read from, and then act upon. The asynchronous nature means that each side is otherwise independent from the other, and does not wait for a response. That independence is an important part of the nature of the system though - and we'll see later how some of the more advanced functionality for our software of choice here can give some extraordinary flexibility to what can be done.
 
@@ -58,13 +58,13 @@ It can also be useful to not do everything at once - maybe setting a lower-prior
 
 Although BeanstalkD allows a large amount of information to go into the job-specification (the information that is held in the queue and passed between the producers and workers), I find that a simple string can hold at least a reference to what is required. I take my lead from URLs - and use them to direct the action to be run, and a few parameters as needed. For example - imagine the following strings being sent to a BeanstalkD worker, which it decodes and runs as a task:
 
-*   /tasks/image/resize/filename/example.jpg
-*   /tasks/image/resize/filename/example.jpg/sizeX/640/sizeY/480
-*   / tasks/image/move/from/web1/to/centralstore/filename/example.jpg
-*   /tasks/member/logintasks/id/12345
-*   /tasks/event/add/id/12345/event/27
-*   /tasks/mail/fetchcounts/id/12345
-*   /tasks/mail/check-for-disallowed/id/596583405
+ * /tasks/image/resize/filename/example.jpg
+ * /tasks/image/resize/filename/example.jpg/sizeX/640/sizeY/480
+ * /tasks/image/move/from/web1/to/centralstore/filename/example.jpg
+ * /tasks/member/logintasks/id/12345
+ * /tasks/event/add/id/12345/event/27
+ * /tasks/mail/fetchcounts/id/12345
+ * /tasks/mail/check-for-disallowed/id/596583405
 
 Sending simple messages like these would require very little setup from the producer's side, and can be quite easily parsed by any worker process to pass on to a given function. In these examples (some of which I've used myself in live code), the path refers to a Zend Framework layout of module/controller/action & parameters. Rather than sending large amounts of text for the actual contents of a mail message (in the last example path), we simply refer to a record in the database for simplicity. Similarly for an image filename in the first item.
 

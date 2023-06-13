@@ -3,9 +3,10 @@ title: 'Always have up to date documentation, part #2'
 date: Mon, 24 Mar 2008 15:38:28 +0000
 draft: false
 tags: ['php', 'tools', 'zend framework']
+series: php-documentation
 ---
 
-see my [previous post](http://www.phpscaling.com/2008/03/16/always-have-up-to-date-documentation-part-1/) on the topic, #1.
+see my [previous post](/post/always-have-up-to-date-documentation-part-1/) on the topic, #1.
 
 My last post ended up more as a how-to than what-to. This time, I'll say why you should have local copies of the documentation for most of the tools you use. I'll also tell you the sort of things I always have handy as well.
 
@@ -27,21 +28,35 @@ Above all, keep learning. Never stop.
 
 I generally just download the latest many-HTML-page tar.bz2 file from http://pear.php.net/manual/ and drop it into my docs directory.
 
+{{% notice warning "Now obsolete" %}}
+The PEAR library has been completely replaced with Composer packages.
+{{% /notice %}}
+
+
 #### Zend Framework
 
 For ZF, there's two sets of documentation - the main docs, and the generated API. Also, since they are released as versions, with the code, rather than continually upgraded. Downloading and unpacking both styles of documentation is easy, and then I'll just add a quick index.html file in the base to quickly bounce into either the manual, or API.
+
+{{% notice warning "Now obsolete" %}}
+There are newer versions of the Zend Framework (now called Laminas), but Symfony or Laravel are the usual choices for new development.
+{{% /notice %}}
 
 #### PHPunit or SimpleTest
 
 Simpletest is easy, copy the documentation from the source tar-ball. While the team that develops it is getting quickly obsoleted by [PHP Unit](http://phpunit.de), they are still ahead on mocking and web-form testing. There are also some ideas somewhat buried in the online docs for upcoming features.
 
-For updating the phpunit docs, I've taken to checking out a [copy of the docs](http://www.phpunit.de/browser/phpunit_pocket_guide/branches/3.3/en) and running the [build script](http://www.phpunit.de/browser/phpunit_pocket_guide/build) to get the HTML, and then like ZF, having a redirect \[in this case, a header('Location: ...')\] to bounce the browser into the right place to start reading. An Apache alias or just an easy link from the top level into the generated docs are other trivial ways to do that.
+For updating the phpunit docs, I've taken to checking out a [copy of the docs](http://www.phpunit.de/browser/phpunit_pocket_guide/branches/3.3/en) and running the [build script](http://www.phpunit.de/browser/phpunit_pocket_guide/build) to get the HTML, and then like ZF, having a redirect [in this case, a `header('Location: ...')`] to bounce the browser into the right place to start reading. An Apache alias or just an easy link from the top level into the generated docs are other trivial ways to do that.
 
 #### Subversion - the book
 
 http://svnbook.red-bean.com/ and of course, they have the book sources in [subversion](http://svnbook.red-bean.com/trac/browser/trunk/src/en/book) Probably as easy to just download the multi-file tarball occasionally.
 
 Although TortoiseSvn, and other tools like it make the every day check-ins and updates easy, I know I'll still hit the manual for branching for a while yet.
+
+{{% notice warning "Now obsolete" %}}
+Git is almost the default choice for code versioning now.
+{{% /notice %}}
+
 
 #### Your own code
 
@@ -54,6 +69,6 @@ The Pear [PHP\_DocBlockGenerator](http://pear.php.net/package/PHP_DocBlockGenera
 
 One little optimisation I've done with a project I'm working on is that since the site is some 45MB - most of that pure PHP (library) code, I don't bother running the document generation unless a PHP file has changed.
 
-\[gist id=1386020 bump=2\]
+{{< gist alister 1386020 >}}
 
 I hope those help, but remember - you have to know where to look for help - so read!

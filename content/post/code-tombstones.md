@@ -47,9 +47,8 @@ The library I use to write the logs comes from [Christian Scheb](https://github.
 
 {{< youtube 29UXzfQWOhQ >}}
 
-Video from [http://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code](https://web.archive.org/web/20220111111029/https://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code)
-
-David Schnepper's Ignite talk, "Isn't That Code Dead?" - Velocity Santa Clara 2014
+* Video from [http://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code](https://web.archive.org/web/20220111111029/https://devblog.nestoria.com/post/115930183873/tombstones-for-dead-code)
+* David Schnepper's Ignite talk, "Isn't That Code Dead?" - Velocity Santa Clara 2014
 
 ### Update: Dec 10th 2018 for version 0.9
 

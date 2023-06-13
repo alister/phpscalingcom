@@ -15,24 +15,23 @@ It's been a few weeks since I set him that task, and for the last week - with hi
 
 This afternoon, I got curious, so decided to have a go at it myself.  I'd already written the basics of the main loop:
 
-\[gist id=1385998\]
+{{< gist alister 1385998 >}}
 
 That was the crux of the script.  There was a little more in the ParseBounces class to look at the headers and body to return the appropriate email addresses, but it's about that simple.
 
-I didn't know enough about the Zend\_Mail\_Storage\_Maildir class to be able to delete the message - but then, I expected a smart guy to go and fill in the blanks - and here there was just two - delete a message from a Maildir, and update a database record (which is pretty easy).
+I didn't know enough about the `Zend_Mail_Storage_Maildir` class to be able to delete the message - but then, I expected a smart guy to go and fill in the blanks - and here there was just two - delete a message from a Maildir, and update a database record (which is pretty easy).
 
-What I have from him, so far, includes an extention to Zend\_Mail\_Storage\_Maildir to peer inside the protected class and another that decodes all the mails in the Maildir (and currently, there's over 20,000) before passing the emails and filenames into the loop where they are acted upon.
+What I have from him, so far, includes an extention to `Zend_Mail_Storage_Maildir` to peer inside the protected class and another that decodes all the mails in the Maildir (and currently, there's over 20,000) before passing the emails and filenames into the loop where they are acted upon.
 
-Know thy tools first
---------------------
+## Know thy tools first
 
 Between 5pm and 5:50pm, I updated that script, shown above, to do what it required, including parsing a couple of the message formats (checking for SpamAssassin headers, a header made by the local MTA -Exim - and parsing a multi-part mime delivery failure message).
 
 Spot the differences:
 
-\[gist id=1386002\]
+{{< gist alister 1386002 >}}
 
-That didn't actually take me 50 minutes - I spent the first 15 minutes reading the APIs to see what 'Zend\_Mail\_Storage\_Maildir\_Writeable' could do, that 'Zend\_Mail\_Storage\_Maildir' could not.  It was fairly safe to assume it had to do with change the contents of a maildir.  Indeed  it can - create new folders, rename them, move messages around, and delete them.
+That didn't actually take me 50 minutes - I spent the first 15 minutes reading the APIs to see what '`Zend_Mail_Storage_Maildir_Writeable`' could do, that '`Zend_Mail_Storage_Maildir`' could not.  It was fairly safe to assume it had to do with change the contents of a maildir.  Indeed  it can - create new folders, rename them, move messages around, and delete them.
 
 So, I've spent less than an hour and changing a few lines to code to do what has taken him weeks to do.  While there are some thing I can add - parsing more formats of bounce messages would be high on the list, what is there right now solves probably 80% of the task, and can be added to pretty trivially to do the rest.  because it's not parsing the entire directory full of messages first, it's going to take less time, and less memory - and if there's a problem, I can simply kill it part way, and it will have achieved something useful - and then will be able to pick up from where it left off.
 

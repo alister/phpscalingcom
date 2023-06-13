@@ -5,7 +5,7 @@ draft: false
 tags: ['advanced', 'graphdb', 'redis', 'tools']
 ---
 
-<img src="/images/RedisGraph-logo.png" title="RedisGraph logo" align="right"> Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using [RedisGraph PHP Client](https://github.com/kjdev/php-redis-graph) back in late October, as part of my regular scan of the [packagist feed](https://packagist.org/feeds/) for new PHP/Composer packages.
+<img src="/images/RedisGraph-logo.png" alt="RedisGraph logo" align="right"> Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using [RedisGraph PHP Client](https://github.com/kjdev/php-redis-graph) back in late October, as part of my regular scan of the [packagist feed](https://packagist.org/feeds/) for new PHP/Composer packages.
 
 The ['kjdev/redis-graph'](https://packagist.org/packages/kjdev/redis-graph) package is the first example of an interface library to [RedisGraph](https://github.com/RedisLabsModules/RedisGraph) - an [extension module to Redis](https://redislabs.com/community/redis-modules-hub/) that became possible with Redis 4.0's release. Other modules now include Bloom filters, rate-limiting and a JSON type.
 
@@ -17,12 +17,11 @@ I was curious about a few things:
 2.  How fast is it to insert new (bulk) data?
 3.  How much space does data take up?
 
-Getting RedisGraph running / Why its different to other GraphDBs
-----------------------------------------------------------------
+### Getting RedisGraph running / Why its different to other GraphDBs
 
 The first part was easy enough. Although I didn't have a version of Redis at that time (a couple of weeks ago) that could use Redis Modules, they have a [Docker image](https://oss.redislabs.com/redisgraph/#docker) that can easily be used for testing.
 
-```
+```sh
 docker run -p 6380:6379 -it --rm redislabs/redisgraph
 ```
 
@@ -32,8 +31,7 @@ As I already had an instance of Redis-server running, I'm exporting this new ver
 
 RedisGraph uses a sparse matrix for each possible combination meaning that the simple query of finding out that a connection (an 'edge' in graph-parlance) has been made between items (a 'node'). Each node, and edge can also have data associated between them - not just a simple name, but a group of properties - any of which can be used to search for the node, or edge (item/record, or connection). Even more interestingly, those matrices can have various mathematical operations performed on them to calculate some very complex potential relationships. This avoids entirely the need to search and traverse the nodes to be able to make queries.
 
-Pushing data
-------------
+### Pushing data
 
 So - I set about writing '[Caxton](https://github.com/alister/caxton)' as a personal test and a basic example of creating and querying a large number of items in a graph. This is deliberately simple for now - just a set of people, with some randomly generated data attached ('username', 'full name' and a couple of dates, stored as an integer), that can be linked to another user. The links also have a date ('createdAt' time, and a simple key:value).
 
@@ -55,7 +53,7 @@ Where I create the `[link]` clause, I also add some other properties. I'm not cu
 
 > The variables inside the query are having to be interpolated in place, and this does sadden me somewhat from a security point of view, and to a lesser extent, ease of use. As Neo4j has a great deal more time of development, for some years it has had the ability to use parameterised queries - and that also helps for an impressive speed boost. I hope that RedisGraph could add them as well in the future (though I wonder if an optional binary format would have to be added to enable it with the mostly-text-oriented Redis commands). It has also one of the techniques that makes SQL injection in PHP, or any other language, much more difficult to even allow to happen accidentally.
 
-```
+```sh
 \# bin/console app:create-graph 75000 --prime=150
 
 \> Building person nodes.
@@ -64,12 +62,11 @@ Where I create the `[link]` clause, I also add some other properties. I'm not cu
 >  104832/196641 \[==============>-------------\]  53%
 ```
 
-Running queries
----------------
+### Running queries
 
 Finding the number of links to each user (even with over 195,000 such links) is surprisingly fast - 1411.8ms, just under 1.5 seconds.
 
-```
+```php
 $query = 'MATCH (r:Person)-\[x:link\]->(:Person) RETURN r.username,COUNT(x)';
 $result = $graph->query($query);
 ```
@@ -111,14 +108,14 @@ All links from cartwright.malika
 
 Even with a more complex search, (between two dates, stored as INTs) and an `ORDER BY`, returning 273 results out of 901 links from this user, the total time to search and return the data is just 5.4ms, though the library also reports an internal time taken of just over 3.85ms.
 
-```
+```php
 $today = 1544031124; // epoch, Dec 05 2018 17:32:04
 $query = "MATCH (r:Person)-\[:link\]->(c:Person)
     WHERE (r.username='{$username}')
         AND (c.setDate > 0) AND (c.setDate < {$today})
     RETURN r.username,c.username,setDate,c.updatedAt
     ORDER BY r.username,c.username,c.setDate";
-
+```
 | r.username | c.username     | c.setDate         | c.updatedAt       |
 |------------|----------------| :-----------------| :-----------------|
 | ibernhard  | adriel.gleason | 1524731283.000000 | 1526763937.000000 |
@@ -127,18 +124,15 @@ $query = "MATCH (r:Person)-\[:link\]->(c:Person)
 | ibernhard  | alberto90      | 1540786524.000000 | 1487852712.000000 |
 | ibernhard  | alexys.stokes  | 1494405825.000000 | 1498136432.000000 |
 | ibernhard  | allene.weber   | 1503973246.000000 | 1500810582.000000 |
-# etc
-```
+| etc        |
 
-Memory use
-----------
+### Memory use
 
 My third question was "How much space does data take up?", and just after the script has run, Redis reports `"used_memory" => 65,966,216` or about ~63MB.'. (My almost empty Redis instance - just after a restart - reports `used_memory:876704`, 856.16K in comparison).
 
 A little more interesting is after the server is restarted with the sample data inserted - all the data is still there, thanks to the regular dumps to disk, but now the server reports a lot less memory used: `used_memory_human:32.82M`.
 
-Speeding up insertion
----------------------
+### Speeding up insertion
 
 There is no doubt at all that adding indexes to at least the main data-node properties speeds up searching for the data. If you are, as I am at the moment, building all the nodes and then adding links to them, with a quick test of adding ~6,200 connections/edges, the amount of time spent went from 8.8 seconds to 4.65 secs.
 
@@ -149,13 +143,10 @@ As with other databases indexes should be used carefully - as if they aren't bei
 
 There is a bulk-import command, though the format isn't well described and it does have a number of downsides (such as some complexity to setup) and it can't, at least currently, add properties to nodes or edges between them. I'll be trying that soon.
 
-Summary
--------
+### Summary
 
-<img src="/images/RedisGraph-logo.png" title="RedisGraph logo" align="left"> With my tests, RedisGraph looks to be more than fast enough to create useful graph database today, and to query them in some potentially complex ways. Even running on a low-spec home server, it's adding several thousands of nodes, and then connecting them with more than a thousand edges per second. With a higher-spec, more production ready system, I'd expect to see many multiples of that. The limitations are well understood, with currently incomplete support for the Cypher query language, and the simple fact that Redis runs from memory (but can easily save that to disk for persistence).
-<!-- [![](https://phpscaling.com/files/2018/12/RedisGraph-logo.png)](https://phpscaling.com/files/2018/12/RedisGraph-logo.png) -->
+<img src="/images/RedisGraph-logo.png" alt="RedisGraph logo" align="left"> With my tests, RedisGraph looks to be more than fast enough to create useful graph database today, and to query them in some potentially complex ways. Even running on a low-spec home server, it's adding several thousands of nodes, and then connecting them with more than a thousand edges per second. With a higher-spec, more production ready system, I'd expect to see many multiples of that. The limitations are well understood, with currently incomplete support for the Cypher query language, and the simple fact that Redis runs from memory (but can easily save that to disk for persistence).
 
-```
 
 |                        | Counts/Duration |
 | -----------------------| ----------------|
@@ -166,7 +157,6 @@ Summary
 | build edges per/sec    |      1,287.92   |
 | build-edges duration   |    140,703.5 ms |
 | search links duration  |         18.7 ms |
-
 
 This looks to be a great tool, mixing the flexibility of graph databases, NoSQL and Redis for the in-memory databases for a surprising amount of data in a quite small amount of (RAM) space - while keeping the functionality that Redis is so well known for with data-structures like the hash for 'NoSql' style schema-less data storage and retrieval.
 

@@ -33,9 +33,13 @@
   weight = -100
 
 [[main]]
-  name = "Favourite tools"
-  url = "favourite-tools/"
+  name = "Presentations"
+  url = "presentations/"
   weight = -95
+# [[main]]
+#   name = "Favourite tools"
+#   url = "favourite-tools/"
+#   weight = -95
 
 # social menu links
 

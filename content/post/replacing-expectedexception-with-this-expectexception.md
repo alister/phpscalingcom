@@ -14,14 +14,14 @@ Well, a couple of days ago, I had the time to take a look at it, just a simple -
 
 The idea itself is quite simple - take a piece of code like such:
 
-```
+```php
 use App\CanThrowAnException;
 use App\Exception\Complicated;
 
 /**
  * Pass the test if an exception is thrown
  *
- * // assert what should be happening
+ * Assert what should be happening
  * @expectedException \App\Exception\Complicated
  */
 function testException()
@@ -34,9 +34,9 @@ function testException()
 }
 ```
 
-... to the newer style, '$this->expectException(...)', which came in with [PHPUnit 5.2](https://github.com/sebastianbergmann/phpunit/wiki/Release-Announcement-for-PHPUnit-5.2.0).
+... to the newer style, `$this->expectException(...)`, which came in with [PHPUnit 5.2](https://github.com/sebastianbergmann/phpunit/wiki/Release-Announcement-for-PHPUnit-5.2.0).
 
-```
+```php
 use App\CanThrowAnException;
 use App\Exception\Complicated;
 
@@ -63,7 +63,7 @@ This gives a couple of advantages -
 
 The rewriting from the annotation to function call is almost trivial, and there are also some new (related) function calls for the other `@expectedException...` annotations
 
-```
+```php
 @expectedExceptionCode -> $this->expectExceptionCode(int $code);
 @expectedExceptionMessage -> $this->expectExceptionMessage($msgToExpect);
 @expectedExceptionMessageRegExp -> $this->expectExceptionMessageRegExp($regexp);
@@ -77,7 +77,7 @@ The difference in, in 5.5 minutes, it will also run a full php\_codesniffer repo
 
 So, in my main build.xml file - I setup a couple of searches in the src/ and tests/ directories - if the string '@expectedException' appears - fail. If one did stray back in, actually finding them is easy with [ack](https://beyondgrep.com/) or my own new favourite - [ag](https://github.com/ggreer/the_silver_searcher).
 
-```
+```xml
 <!-- If there are any '@expectedException...' annotations, fail. -->
 <target name="noExpectedException">
     <property name="fail.string" value="@expectedException"></property>
@@ -100,7 +100,7 @@ So, in my main build.xml file - I setup a couple of searches in the src/ and tes
 
 I've added that check to my php-linting action, which is run by default when `ant` is run.
 
-```
+```xml
 <target name="php-lint-ci" depends="get-changeset.php.spacesep,noExpectedException"
     if="changeset.php.notempty"
     description="Perform syntax check of sourcecode files in parallel">
