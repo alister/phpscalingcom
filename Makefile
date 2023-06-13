@@ -38,15 +38,16 @@ version:
 
 .PHONY: watch
 watch:
-	$(HUGO) server -w --verbose --cleanDestinationDir  --enableGitInfo --buildDrafts --buildFuture \
+	$(HUGO) server -w --verbose --cleanDestinationDir  --enableGitInfo  --buildFuture \
 		--destination public/
-#
+# --buildDrafts
 
 .PHONY: build
-build:
+build: clean
 	$(HUGO)           --verbose --cleanDestinationDir --enableGitInfo
-		--minify \
 		--destination public/
+
+#		--minify \
 
 ##
 
