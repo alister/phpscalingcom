@@ -8,7 +8,7 @@ xargs -0 -P8 -n2 mogrify -strip -thumbnail '1000>'
 FILES=$(shell find content layouts static themes -type f)
 
 # Below are PHONY targets
-all: serve
+#all: serve
 
 help:
 	@echo "Usage: make <command>"
