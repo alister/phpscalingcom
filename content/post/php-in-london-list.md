@@ -19,7 +19,7 @@ There are a lot of companies in London that use PHP, and it is hard to keep trac
 
 I've also added another list for recruiters that deal with a lot of PHP roles - though as they are somewhat less technically savvy, there are only a couple of entries, one of which is a recruitment startup.
 
-[![Hacktoberfest T-shirt](https://phpscaling.com/files/2017/08/hacktoberfest.300x200.jpg)](https://phpscaling.com/files/2017/08/hacktoberfest.300x200.jpg)Starting the list actually helped to earn me a T-Shirt - for [DigitalOcean Hacktober](https://hacktoberfest.digitalocean.com/) (which I'm actually wearing as I write this post :D).
+[![Hacktoberfest T-shirt](/images/hacktoberfest.300x200.jpg)](/images/hacktoberfest.300x200.jpg)Starting the list actually helped to earn me a T-Shirt - for [DigitalOcean Hacktober](https://hacktoberfest.digitalocean.com/) (which I'm actually wearing as I write this post :D).
 
 To help spread the PR and Github Karma, when someone asked to add a new item to the list, I also added them as a full collaborator on the project - allowing them to add more - something that a some of them have already done - like these fine developers.
 
