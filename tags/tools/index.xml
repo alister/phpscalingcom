@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tools on PHP Scaling</title>
-    <link>https://phpscaling.com/tags/tools/</link>
+    <link>https://www.phpscaling.com/tags/tools/</link>
     <description>Recent content in tools on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Investigating RedisGraph</title>
-      <link>https://phpscaling.com/post/investigating-redisgraph/</link>
+      <link>https://www.phpscaling.com/post/investigating-redisgraph/</link>
       <pubDate>Thu, 06 Dec 2018 13:31:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/investigating-redisgraph/</guid>
+      <guid>https://www.phpscaling.com/post/investigating-redisgraph/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ The &#39;kjdev/redis-graph&#39; package is the first example of an interface lib
     
     <item>
       <title>Speeding up your tests, and also your code coverage!</title>
-      <link>https://phpscaling.com/post/speeding-up-your-tests/</link>
+      <link>https://www.phpscaling.com/post/speeding-up-your-tests/</link>
       <pubDate>Wed, 19 Sep 2018 21:42:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/speeding-up-your-tests/</guid>
+      <guid>https://www.phpscaling.com/post/speeding-up-your-tests/</guid>
       <description>
         
           
@@ -45,10 +45,10 @@ First was avoiding setting up the database in each test, and using the Alice lib
     
     <item>
       <title>Code Tombstones</title>
-      <link>https://phpscaling.com/post/code-tombstones/</link>
+      <link>https://www.phpscaling.com/post/code-tombstones/</link>
       <pubDate>Mon, 28 Aug 2017 18:43:06 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/code-tombstones/</guid>
+      <guid>https://www.phpscaling.com/post/code-tombstones/</guid>
       <description>
         
           
@@ -62,10 +62,10 @@ In a large project - particularly one in a dynamic language like PHP, as a proje
     
     <item>
       <title>Replacing @expectedException with $this-&gt;expectException()</title>
-      <link>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
+      <link>https://www.phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
       <pubDate>Tue, 08 Aug 2017 18:59:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
+      <guid>https://www.phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
       <description>
         
           
@@ -79,10 +79,10 @@ So, earlier in the year, when I saw Sebastian Bergmann&#39;s article on &#39;Que
     
     <item>
       <title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title>
-      <link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
+      <link>https://www.phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
       <pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
+      <guid>https://www.phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
       <description>
         
           
@@ -97,10 +97,10 @@ I installed it as a new, global, tool because in my project I am using the &amp;
     
     <item>
       <title>Recently....</title>
-      <link>https://phpscaling.com/post/recently/</link>
+      <link>https://www.phpscaling.com/post/recently/</link>
       <pubDate>Tue, 03 Apr 2012 11:03:33 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/recently/</guid>
+      <guid>https://www.phpscaling.com/post/recently/</guid>
       <description>
         
           
@@ -114,10 +114,10 @@ I&#39;ve recently finished a short contract working with an agency, Transform (p
     
     <item>
       <title>Deployment with Capistrano - the Gotchas</title>
-      <link>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link>
+      <link>https://www.phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link>
       <pubDate>Thu, 24 Nov 2011 12:16:59 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid>
+      <guid>https://www.phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid>
       <description>
         
           
@@ -131,10 +131,10 @@ If you&#39;ve only got a single machine (or maybe two), then you could certainly
     
     <item>
       <title>Doing the work elsewhere - Adding a job to the queue</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
       <pubDate>Tue, 06 Oct 2009 22:30:26 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
       <description>
         
           
@@ -148,10 +148,10 @@ In this post, I&#39;ll show you how to put the messages into the queue, and we&#
     
     <item>
       <title>Always have up to date documentation, part #2</title>
-      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link>
+      <link>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link>
       <pubDate>Mon, 24 Mar 2008 15:38:28 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid>
+      <guid>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid>
       <description>
         
           
@@ -166,10 +166,10 @@ Getting a local copy of php.net - and getting installed as an apache vhost and u
     
     <item>
       <title>Always have up to date documentation, part #1</title>
-      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</link>
+      <link>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-1/</link>
       <pubDate>Sun, 16 Mar 2008 23:41:00 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</guid>
+      <guid>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-1/</guid>
       <description>
         
           
@@ -183,10 +183,10 @@ I mentioned there that I have a local copy of the main PHP manual – and I want
     
     <item>
       <title>svn checkouts vs exports for live versions</title>
-      <link>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</link>
+      <link>https://www.phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</link>
       <pubDate>Sun, 09 Mar 2008 19:45:30 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</guid>
+      <guid>https://www.phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</guid>
       <description>
         
           

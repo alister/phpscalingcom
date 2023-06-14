@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>workers on PHP Scaling</title>
-    <link>https://phpscaling.com/tags/workers/</link>
+    <link>https://www.phpscaling.com/tags/workers/</link>
     <description>Recent content in workers on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Tue, 06 Oct 2009 22:30:26 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/workers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2009 22:30:26 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/tags/workers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doing the work elsewhere - Adding a job to the queue</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
       <pubDate>Tue, 06 Oct 2009 22:30:26 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ In this post, I&#39;ll show you how to put the messages into the queue, and we&#
     
     <item>
       <title>Doing the work elsewhere - Sidebar - running the worker</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</link>
       <pubDate>Tue, 23 Jun 2009 21:19:33 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</guid>
       <description>
         
           
@@ -44,10 +44,10 @@ For testing with return from the worker, we&#39;ll just return a random number. 
     
     <item>
       <title>Doing the work elsewhere - Asynchronous Message Queues</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
       <pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
       <description>
         
           

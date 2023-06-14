@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aside on PHP Scaling</title>
-    <link>https://phpscaling.com/tags/aside/</link>
+    <link>https://www.phpscaling.com/tags/aside/</link>
     <description>Recent content in Aside on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Wed, 18 Jul 2012 21:40:24 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/aside/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Jul 2012 21:40:24 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/tags/aside/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hire quickly: Addendum, recruiters</title>
-      <link>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</link>
+      <link>https://www.phpscaling.com/post/hire-quickly-addendum-recruiters/</link>
       <pubDate>Mon, 09 Jan 2012 17:32:22 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</guid>
+      <guid>https://www.phpscaling.com/post/hire-quickly-addendum-recruiters/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ The first recruiter to tell me the company name, and then send the job-spec gets
     
     <item>
       <title>Jailbreaking your Kindle, and putting new &#39;screensaver&#39; images</title>
-      <link>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</link>
+      <link>https://www.phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</link>
       <pubDate>Tue, 27 Dec 2011 15:16:40 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</guid>
+      <guid>https://www.phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</guid>
       <description>
         
           
@@ -44,10 +44,10 @@ It&#39;s really easy, no more than 20 mins and a couple of reboots/software upda
     
     <item>
       <title>Booze at tech meetups</title>
-      <link>https://phpscaling.com/post/booze-at-meetups/</link>
+      <link>https://www.phpscaling.com/post/booze-at-meetups/</link>
       <pubDate>Tue, 13 Dec 2011 17:12:48 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/booze-at-meetups/</guid>
+      <guid>https://www.phpscaling.com/post/booze-at-meetups/</guid>
       <description>
         
           
@@ -61,10 +61,10 @@ Now, to the main part of what this post is about - the rant. It&#39;s not aimed 
     
     <item>
       <title>($me instanceOf ZCE) === true</title>
-      <link>https://phpscaling.com/post/me-instanceof-zce-true/</link>
+      <link>https://www.phpscaling.com/post/me-instanceof-zce-true/</link>
       <pubDate>Sat, 06 Jun 2009 11:50:00 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/me-instanceof-zce-true/</guid>
+      <guid>https://www.phpscaling.com/post/me-instanceof-zce-true/</guid>
       <description>
         
           

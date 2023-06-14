@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>advanced on PHP Scaling</title>
-    <link>https://phpscaling.com/tags/advanced/</link>
+    <link>https://www.phpscaling.com/tags/advanced/</link>
     <description>Recent content in advanced on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Investigating RedisGraph</title>
-      <link>https://phpscaling.com/post/investigating-redisgraph/</link>
+      <link>https://www.phpscaling.com/post/investigating-redisgraph/</link>
       <pubDate>Thu, 06 Dec 2018 13:31:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/investigating-redisgraph/</guid>
+      <guid>https://www.phpscaling.com/post/investigating-redisgraph/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ The &#39;kjdev/redis-graph&#39; package is the first example of an interface lib
     
     <item>
       <title>SncRedis and tagged services</title>
-      <link>https://phpscaling.com/post/sncredis-and-tagged-services/</link>
+      <link>https://www.phpscaling.com/post/sncredis-and-tagged-services/</link>
       <pubDate>Wed, 27 Sep 2017 14:17:47 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/sncredis-and-tagged-services/</guid>
+      <guid>https://www.phpscaling.com/post/sncredis-and-tagged-services/</guid>
       <description>
         
           
@@ -43,10 +43,10 @@ The &#39;kjdev/redis-graph&#39; package is the first example of an interface lib
     
     <item>
       <title>Recently....</title>
-      <link>https://phpscaling.com/post/recently/</link>
+      <link>https://www.phpscaling.com/post/recently/</link>
       <pubDate>Tue, 03 Apr 2012 11:03:33 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/recently/</guid>
+      <guid>https://www.phpscaling.com/post/recently/</guid>
       <description>
         
           
@@ -60,10 +60,10 @@ I&#39;ve recently finished a short contract working with an agency, Transform (p
     
     <item>
       <title>Doing the work elsewhere - Asynchronous Message Queues</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
       <pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
       <description>
         
           

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on PHP Scaling</title>
-    <link>https://phpscaling.com/post/</link>
+    <link>https://www.phpscaling.com/post/</link>
     <description>Recent content in Posts on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Investigating RedisGraph</title>
-      <link>https://phpscaling.com/post/investigating-redisgraph/</link>
+      <link>https://www.phpscaling.com/post/investigating-redisgraph/</link>
       <pubDate>Thu, 06 Dec 2018 13:31:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/investigating-redisgraph/</guid>
+      <guid>https://www.phpscaling.com/post/investigating-redisgraph/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ The &#39;kjdev/redis-graph&#39; package is the first example of an interface lib
     
     <item>
       <title>Speeding up your tests, and also your code coverage!</title>
-      <link>https://phpscaling.com/post/speeding-up-your-tests/</link>
+      <link>https://www.phpscaling.com/post/speeding-up-your-tests/</link>
       <pubDate>Wed, 19 Sep 2018 21:42:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/speeding-up-your-tests/</guid>
+      <guid>https://www.phpscaling.com/post/speeding-up-your-tests/</guid>
       <description>
         
           
@@ -45,10 +45,10 @@ First was avoiding setting up the database in each test, and using the Alice lib
     
     <item>
       <title>SncRedis and tagged services</title>
-      <link>https://phpscaling.com/post/sncredis-and-tagged-services/</link>
+      <link>https://www.phpscaling.com/post/sncredis-and-tagged-services/</link>
       <pubDate>Wed, 27 Sep 2017 14:17:47 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/sncredis-and-tagged-services/</guid>
+      <guid>https://www.phpscaling.com/post/sncredis-and-tagged-services/</guid>
       <description>
         
           
@@ -61,10 +61,10 @@ First was avoiding setting up the database in each test, and using the Alice lib
     
     <item>
       <title>Improve your code coverage percentage - delete code!</title>
-      <link>https://phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</link>
+      <link>https://www.phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</link>
       <pubDate>Mon, 04 Sep 2017 12:14:17 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</guid>
+      <guid>https://www.phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</guid>
       <description>
         
           
@@ -78,10 +78,10 @@ Chances are - you might never get back to it, and it&#39;s just taking up import
     
     <item>
       <title>PHP-in-London list</title>
-      <link>https://phpscaling.com/post/php-in-london-list/</link>
+      <link>https://www.phpscaling.com/post/php-in-london-list/</link>
       <pubDate>Tue, 29 Aug 2017 10:27:18 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/php-in-london-list/</guid>
+      <guid>https://www.phpscaling.com/post/php-in-london-list/</guid>
       <description>
         
           
@@ -96,10 +96,10 @@ What it can enable is of mutual advantage to the companies, and developers that 
     
     <item>
       <title>Code Tombstones</title>
-      <link>https://phpscaling.com/post/code-tombstones/</link>
+      <link>https://www.phpscaling.com/post/code-tombstones/</link>
       <pubDate>Mon, 28 Aug 2017 18:43:06 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/code-tombstones/</guid>
+      <guid>https://www.phpscaling.com/post/code-tombstones/</guid>
       <description>
         
           
@@ -113,10 +113,10 @@ In a large project - particularly one in a dynamic language like PHP, as a proje
     
     <item>
       <title>Replacing @expectedException with $this-&gt;expectException()</title>
-      <link>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
+      <link>https://www.phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
       <pubDate>Tue, 08 Aug 2017 18:59:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
+      <guid>https://www.phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
       <description>
         
           
@@ -130,10 +130,10 @@ So, earlier in the year, when I saw Sebastian Bergmann&#39;s article on &#39;Que
     
     <item>
       <title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title>
-      <link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
+      <link>https://www.phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
       <pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
+      <guid>https://www.phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
       <description>
         
           
@@ -148,10 +148,10 @@ I installed it as a new, global, tool because in my project I am using the &amp;
     
     <item>
       <title>Recently....</title>
-      <link>https://phpscaling.com/post/recently/</link>
+      <link>https://www.phpscaling.com/post/recently/</link>
       <pubDate>Tue, 03 Apr 2012 11:03:33 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/recently/</guid>
+      <guid>https://www.phpscaling.com/post/recently/</guid>
       <description>
         
           
@@ -165,10 +165,10 @@ I&#39;ve recently finished a short contract working with an agency, Transform (p
     
     <item>
       <title>Hire quickly: Addendum, recruiters</title>
-      <link>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</link>
+      <link>https://www.phpscaling.com/post/hire-quickly-addendum-recruiters/</link>
       <pubDate>Mon, 09 Jan 2012 17:32:22 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</guid>
+      <guid>https://www.phpscaling.com/post/hire-quickly-addendum-recruiters/</guid>
       <description>
         
           
@@ -182,10 +182,10 @@ The first recruiter to tell me the company name, and then send the job-spec gets
     
     <item>
       <title>Hire quickly, because your competitors will.</title>
-      <link>https://phpscaling.com/post/hire-quickly-because-your-competitors-will/</link>
+      <link>https://www.phpscaling.com/post/hire-quickly-because-your-competitors-will/</link>
       <pubDate>Thu, 05 Jan 2012 13:11:01 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/hire-quickly-because-your-competitors-will/</guid>
+      <guid>https://www.phpscaling.com/post/hire-quickly-because-your-competitors-will/</guid>
       <description>
         
           
@@ -199,10 +199,10 @@ I&#39;ve been guilty of it before - leaving it a couple of days - or even a week
     
     <item>
       <title>Jailbreaking your Kindle, and putting new &#39;screensaver&#39; images</title>
-      <link>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</link>
+      <link>https://www.phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</link>
       <pubDate>Tue, 27 Dec 2011 15:16:40 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</guid>
+      <guid>https://www.phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</guid>
       <description>
         
           
@@ -216,10 +216,10 @@ It&#39;s really easy, no more than 20 mins and a couple of reboots/software upda
     
     <item>
       <title>Booze at tech meetups</title>
-      <link>https://phpscaling.com/post/booze-at-meetups/</link>
+      <link>https://www.phpscaling.com/post/booze-at-meetups/</link>
       <pubDate>Tue, 13 Dec 2011 17:12:48 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/booze-at-meetups/</guid>
+      <guid>https://www.phpscaling.com/post/booze-at-meetups/</guid>
       <description>
         
           
@@ -233,10 +233,10 @@ Now, to the main part of what this post is about - the rant. It&#39;s not aimed 
     
     <item>
       <title>Deployment with Capistrano - the Gotchas</title>
-      <link>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link>
+      <link>https://www.phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link>
       <pubDate>Thu, 24 Nov 2011 12:16:59 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid>
+      <guid>https://www.phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid>
       <description>
         
           
@@ -250,10 +250,10 @@ If you&#39;ve only got a single machine (or maybe two), then you could certainly
     
     <item>
       <title>Back from the coalface</title>
-      <link>https://phpscaling.com/post/back-from-the-coalface/</link>
+      <link>https://www.phpscaling.com/post/back-from-the-coalface/</link>
       <pubDate>Wed, 23 Nov 2011 11:48:46 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/back-from-the-coalface/</guid>
+      <guid>https://www.phpscaling.com/post/back-from-the-coalface/</guid>
       <description>
         
           
@@ -266,10 +266,10 @@ If you&#39;ve only got a single machine (or maybe two), then you could certainly
     
     <item>
       <title>Doing the work elsewhere - Adding a job to the queue</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
       <pubDate>Tue, 06 Oct 2009 22:30:26 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
       <description>
         
           
@@ -283,10 +283,10 @@ In this post, I&#39;ll show you how to put the messages into the queue, and we&#
     
     <item>
       <title>Doing the work elsewhere - Sidebar - running the worker</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</link>
       <pubDate>Tue, 23 Jun 2009 21:19:33 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</guid>
       <description>
         
           
@@ -300,10 +300,10 @@ For testing with return from the worker, we&#39;ll just return a random number. 
     
     <item>
       <title>Doing the work elsewhere - Asynchronous Message Queues</title>
-      <link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
+      <link>https://www.phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
       <pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
+      <guid>https://www.phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
       <description>
         
           
@@ -318,10 +318,10 @@ So one part of a system puts a message into a queue for another part to read fro
     
     <item>
       <title>($me instanceOf ZCE) === true</title>
-      <link>https://phpscaling.com/post/me-instanceof-zce-true/</link>
+      <link>https://www.phpscaling.com/post/me-instanceof-zce-true/</link>
       <pubDate>Sat, 06 Jun 2009 11:50:00 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/me-instanceof-zce-true/</guid>
+      <guid>https://www.phpscaling.com/post/me-instanceof-zce-true/</guid>
       <description>
         
           
@@ -334,10 +334,10 @@ So one part of a system puts a message into a queue for another part to read fro
     
     <item>
       <title>Upcoming posts - keep watching</title>
-      <link>https://phpscaling.com/post/upcoming-posts-keep-watching/</link>
+      <link>https://www.phpscaling.com/post/upcoming-posts-keep-watching/</link>
       <pubDate>Tue, 02 Jun 2009 10:28:55 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/upcoming-posts-keep-watching/</guid>
+      <guid>https://www.phpscaling.com/post/upcoming-posts-keep-watching/</guid>
       <description>
         
           
@@ -351,10 +351,10 @@ Doing the work elsewhere – asynchronous queues This is going to be a series of
     
     <item>
       <title>I laugh at your ZCE exam prep tests #2</title>
-      <link>https://phpscaling.com/post/i-laugh-at-your-zce-exam-prep-tests-2/</link>
+      <link>https://www.phpscaling.com/post/i-laugh-at-your-zce-exam-prep-tests-2/</link>
       <pubDate>Sat, 30 May 2009 14:20:23 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/i-laugh-at-your-zce-exam-prep-tests-2/</guid>
+      <guid>https://www.phpscaling.com/post/i-laugh-at-your-zce-exam-prep-tests-2/</guid>
       <description>
         
           
@@ -367,10 +367,10 @@ Doing the work elsewhere – asynchronous queues This is going to be a series of
     
     <item>
       <title>Riddled me that</title>
-      <link>https://phpscaling.com/post/riddled-me-that/</link>
+      <link>https://www.phpscaling.com/post/riddled-me-that/</link>
       <pubDate>Thu, 24 Apr 2008 19:56:18 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/riddled-me-that/</guid>
+      <guid>https://www.phpscaling.com/post/riddled-me-that/</guid>
       <description>
         
           
@@ -384,10 +384,10 @@ He’d put a little puzzle up last night, some long numbers, and a few short. I 
     
     <item>
       <title>Always have up to date documentation, part #2</title>
-      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link>
+      <link>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link>
       <pubDate>Mon, 24 Mar 2008 15:38:28 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid>
+      <guid>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid>
       <description>
         
           
@@ -402,10 +402,10 @@ Getting a local copy of php.net - and getting installed as an apache vhost and u
     
     <item>
       <title>Know thy tools first of all</title>
-      <link>https://phpscaling.com/post/know-thy-tools-first-of-all/</link>
+      <link>https://www.phpscaling.com/post/know-thy-tools-first-of-all/</link>
       <pubDate>Mon, 17 Mar 2008 20:09:22 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/know-thy-tools-first-of-all/</guid>
+      <guid>https://www.phpscaling.com/post/know-thy-tools-first-of-all/</guid>
       <description>
         
           
@@ -419,10 +419,10 @@ What you don’t know can cost you weeks of effort and pain. I found this out (a
     
     <item>
       <title>Always have up to date documentation, part #1</title>
-      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</link>
+      <link>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-1/</link>
       <pubDate>Sun, 16 Mar 2008 23:41:00 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</guid>
+      <guid>https://www.phpscaling.com/post/always-have-up-to-date-documentation-part-1/</guid>
       <description>
         
           
@@ -436,10 +436,10 @@ I mentioned there that I have a local copy of the main PHP manual – and I want
     
     <item>
       <title>ZCE prep - practice test #1</title>
-      <link>https://phpscaling.com/post/zce-prep-practice-test-1-2/</link>
+      <link>https://www.phpscaling.com/post/zce-prep-practice-test-1-2/</link>
       <pubDate>Thu, 13 Mar 2008 21:33:00 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/zce-prep-practice-test-1-2/</guid>
+      <guid>https://www.phpscaling.com/post/zce-prep-practice-test-1-2/</guid>
       <description>
         
           
@@ -452,10 +452,10 @@ I mentioned there that I have a local copy of the main PHP manual – and I want
     
     <item>
       <title>A useful idea for helping to enforce PHP code standards</title>
-      <link>https://phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</link>
+      <link>https://www.phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</link>
       <pubDate>Tue, 11 Mar 2008 17:16:57 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</guid>
+      <guid>https://www.phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</guid>
       <description>
         
           
@@ -469,10 +469,10 @@ Extending PHP_CodeSniffer by Raphael Stolt shows how to quite easily add to a to
     
     <item>
       <title>ZCE prep - and dumb tests</title>
-      <link>https://phpscaling.com/post/zce-prep-and-dumb-tests-2/</link>
+      <link>https://www.phpscaling.com/post/zce-prep-and-dumb-tests-2/</link>
       <pubDate>Mon, 10 Mar 2008 21:55:00 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/zce-prep-and-dumb-tests-2/</guid>
+      <guid>https://www.phpscaling.com/post/zce-prep-and-dumb-tests-2/</guid>
       <description>
         
           
@@ -486,10 +486,10 @@ Going for the Zend Certification is something I&#39;ve been thinking of doing fo
     
     <item>
       <title>svn checkouts vs exports for live versions</title>
-      <link>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</link>
+      <link>https://www.phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</link>
       <pubDate>Sun, 09 Mar 2008 19:45:30 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</guid>
+      <guid>https://www.phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</guid>
       <description>
         
           

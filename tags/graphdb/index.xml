@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>graphdb on PHP Scaling</title>
-    <link>https://phpscaling.com/tags/graphdb/</link>
+    <link>https://www.phpscaling.com/tags/graphdb/</link>
     <description>Recent content in graphdb on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/graphdb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/tags/graphdb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Investigating RedisGraph</title>
-      <link>https://phpscaling.com/post/investigating-redisgraph/</link>
+      <link>https://www.phpscaling.com/post/investigating-redisgraph/</link>
       <pubDate>Thu, 06 Dec 2018 13:31:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/investigating-redisgraph/</guid>
+      <guid>https://www.phpscaling.com/post/investigating-redisgraph/</guid>
       <description>
         
           

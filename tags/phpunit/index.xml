@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>phpunit on PHP Scaling</title>
-    <link>https://phpscaling.com/tags/phpunit/</link>
+    <link>https://www.phpscaling.com/tags/phpunit/</link>
     <description>Recent content in phpunit on PHP Scaling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
-    <lastBuildDate>Wed, 19 Sep 2018 21:42:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/phpunit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Sep 2018 21:42:44 +0000</lastBuildDate><atom:link href="https://www.phpscaling.com/tags/phpunit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speeding up your tests, and also your code coverage!</title>
-      <link>https://phpscaling.com/post/speeding-up-your-tests/</link>
+      <link>https://www.phpscaling.com/post/speeding-up-your-tests/</link>
       <pubDate>Wed, 19 Sep 2018 21:42:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/speeding-up-your-tests/</guid>
+      <guid>https://www.phpscaling.com/post/speeding-up-your-tests/</guid>
       <description>
         
           
@@ -28,10 +28,10 @@ First was avoiding setting up the database in each test, and using the Alice lib
     
     <item>
       <title>Replacing @expectedException with $this-&gt;expectException()</title>
-      <link>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
+      <link>https://www.phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
       <pubDate>Tue, 08 Aug 2017 18:59:44 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
+      <guid>https://www.phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
       <description>
         
           
@@ -45,10 +45,10 @@ So, earlier in the year, when I saw Sebastian Bergmann&#39;s article on &#39;Que
     
     <item>
       <title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title>
-      <link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
+      <link>https://www.phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
       <pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate>
       
-      <guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
+      <guid>https://www.phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
       <description>
         
           
