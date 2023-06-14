@@ -9,12 +9,11 @@ on:
   pull_request:
   workflow_dispatch:
 
-permissions:
-  contents: write # To write the generated contents to the readme
-
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write # To write the generated contents to the readme
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -37,7 +36,7 @@ jobs:
       #       ${{ runner.os }}-hugomod-
 
       - name: Build
-        run: hugo --minify
+        run: hugo #--minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
