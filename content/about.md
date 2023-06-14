@@ -18,3 +18,11 @@ I've taken a couple of Sabbaticals between jobs, most recently in December to Ja
 Now, as of the end of June 2023, I am back on the market, and looking for fully-remote back-end PHP/Symfony roles.
 
 Links to my other work, including Stackoverflow (and my extended CV there), Github, LinkedIn,  twitter, etc are available via [Contacts](/contacts).
+
+
+#### Credits
+
+* [Hugo](https://gohugo.io/), Fast static site generator
+* [hugo-clarity]( https://github.com/chipzoller/hugo-clarity) Theme (found via [GoHugo Themes](https://themes.gohugo.io/themes/hugo-clarity/))
+* [Github pages](https://pages.github.com/) Site hosting & deployment
+* [LuaDNS](https://luadns.com/) DNS hosting, parsed from a Git repository
