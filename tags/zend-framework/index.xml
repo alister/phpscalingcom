@@ -1,6 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zend framework on PHP Scaling</title><link>https://phpscaling.com/tags/zend-framework/</link><description>Recent content in zend framework on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Mon, 24 Mar 2008 15:38:28 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/zend-framework/index.xml" rel="self" type="application/rss+xml"/><item><title>Always have up to date documentation, part #2</title><link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link><pubDate>Mon, 24 Mar 2008 15:38:28 +0000</pubDate><guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid><description>
-see my previous post on the topic, #1.
-My last post ended up more as a how-to than what-to. This time, I'll say why you should have local copies of the documentation for most of the tools you use. I'll also tell you the sort of things I always have handy as well.
-Getting a local copy of php.net - and getting installed as an apache vhost and updated (probably weekly) is some effort, but well worth it.</description></item><item><title>Know thy tools first of all</title><link>https://phpscaling.com/post/know-thy-tools-first-of-all/</link><pubDate>Mon, 17 Mar 2008 20:09:22 +0000</pubDate><guid>https://phpscaling.com/post/know-thy-tools-first-of-all/</guid><description>
-When you have a library, like PEAR or Zend Framework – or even just the whole PHP language library – it’s absolutely vital you know what it can do.
-What you don’t know can cost you weeks of effort and pain. I found this out (again) today, but it’s not my pain – it’s an employee who was too busy deciding that the Zend Framework wasn’t suitable for a simple cron-script task, he has spent most of the last few weeks duplicating something that is not as good as what I could write – with ZF – in about an hour.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zend framework on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/zend-framework/</link>
+    <description>Recent content in zend framework on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Mon, 24 Mar 2008 15:38:28 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/zend-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Always have up to date documentation, part #2</title>
+      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link>
+      <pubDate>Mon, 24 Mar 2008 15:38:28 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid>
+      <description>
+        
+          
+            see my previous post on the topic, #1.
+My last post ended up more as a how-to than what-to. This time, I&#39;ll say why you should have local copies of the documentation for most of the tools you use. I&#39;ll also tell you the sort of things I always have handy as well.
+Getting a local copy of php.net - and getting installed as an apache vhost and updated (probably weekly) is some effort, but well worth it.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Know thy tools first of all</title>
+      <link>https://phpscaling.com/post/know-thy-tools-first-of-all/</link>
+      <pubDate>Mon, 17 Mar 2008 20:09:22 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/know-thy-tools-first-of-all/</guid>
+      <description>
+        
+          
+            When you have a library, like PEAR or Zend Framework – or even just the whole PHP language library – it’s absolutely vital you know what it can do.
+What you don’t know can cost you weeks of effort and pain. I found this out (again) today, but it’s not my pain – it’s an employee who was too busy deciding that the Zend Framework wasn’t suitable for a simple cron-script task, he has spent most of the last few weeks duplicating something that is not as good as what I could write – with ZF – in about an hour.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

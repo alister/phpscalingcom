@@ -1,3 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>deployment on PHP Scaling</title><link>https://phpscaling.com/tags/deployment/</link><description>Recent content in deployment on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Thu, 24 Nov 2011 12:16:59 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/deployment/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment with Capistrano - the Gotchas</title><link>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link><pubDate>Thu, 24 Nov 2011 12:16:59 +0000</pubDate><guid>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid><description>
-Capistrano, makes deployment of code easy. If you need to do a number of additional steps as well, then the fact that they can be scripted and run automatically is a huge win.
-If you've only got a single machine (or maybe two), then you could certainly write your own quite simple, and entirely workable system - I described something just like this in a previous post: &amp;quot;SVN checkouts vs exports for live versions&amp;quot;.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deployment on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/deployment/</link>
+    <description>Recent content in deployment on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Thu, 24 Nov 2011 12:16:59 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deployment with Capistrano - the Gotchas</title>
+      <link>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link>
+      <pubDate>Thu, 24 Nov 2011 12:16:59 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid>
+      <description>
+        
+          
+            Capistrano, makes deployment of code easy. If you need to do a number of additional steps as well, then the fact that they can be scripted and run automatically is a huge win.
+If you&#39;ve only got a single machine (or maybe two), then you could certainly write your own quite simple, and entirely workable system - I described something just like this in a previous post: &amp;quot;SVN checkouts vs exports for live versions&amp;quot;.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

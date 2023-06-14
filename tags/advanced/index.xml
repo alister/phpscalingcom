@@ -1,9 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>advanced on PHP Scaling</title><link>https://phpscaling.com/tags/advanced/</link><description>Recent content in advanced on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Investigating RedisGraph</title><link>https://phpscaling.com/post/investigating-redisgraph/</link><pubDate>Thu, 06 Dec 2018 13:31:44 +0000</pubDate><guid>https://phpscaling.com/post/investigating-redisgraph/</guid><description>
-Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using RedisGraph PHP Client back in late October, as part of my regular scan of the packagist feed for new PHP/Composer packages.
-The 'kjdev/redis-graph' package is the first example of an interface library to RedisGraph - an extension module to Redis that became possible with Redis 4.</description></item><item><title>SncRedis and tagged services</title><link>https://phpscaling.com/post/sncredis-and-tagged-services/</link><pubDate>Wed, 27 Sep 2017 14:17:47 +0000</pubDate><guid>https://phpscaling.com/post/sncredis-and-tagged-services/</guid><description>
-In early 2016, I suggested an addition to the SncRedis-bundle. The project itself is an fully-featured add-on ('bundle') for Symfony framework projects to easily do a number of very useful interface functions between Symfony and the Redis database/cache. It can, for example, quickly enable all the sessions to be put into a Redis server, and also cache the Doctrine meta-information as well as anything else that the developer would like to cache.</description></item><item><title>Recently....</title><link>https://phpscaling.com/post/recently/</link><pubDate>Tue, 03 Apr 2012 11:03:33 +0000</pubDate><guid>https://phpscaling.com/post/recently/</guid><description>
-It's been one of those quiet spots around here for a while, so here's the catch-up on what has been happening while I was not posting.
-I've recently finished a short contract working with an agency, Transform (part of the Engine group) working with a couple of government departments. The Office Of The Public Guardian receives, checks and stores Lasting Powers of Attorney - a legal document that you write while still mentally compentant to say what you would like to happen should the worst occur, and by whom you want to do it.</description></item><item><title>Doing the work elsewhere - Asynchronous Message Queues</title><link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link><pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate><guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid><description>
-The use of Beanstalkd as a queueing system What is an asynchronous queue The classic wikipedia quote (Message queue)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>advanced on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/advanced/</link>
+    <description>Recent content in advanced on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Thu, 06 Dec 2018 13:31:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Investigating RedisGraph</title>
+      <link>https://phpscaling.com/post/investigating-redisgraph/</link>
+      <pubDate>Thu, 06 Dec 2018 13:31:44 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/investigating-redisgraph/</guid>
+      <description>
+        
+          
+            Thus far, I&#39;ve not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using RedisGraph PHP Client back in late October, as part of my regular scan of the packagist feed for new PHP/Composer packages.
+The &#39;kjdev/redis-graph&#39; package is the first example of an interface library to RedisGraph - an extension module to Redis that became possible with Redis 4.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SncRedis and tagged services</title>
+      <link>https://phpscaling.com/post/sncredis-and-tagged-services/</link>
+      <pubDate>Wed, 27 Sep 2017 14:17:47 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/sncredis-and-tagged-services/</guid>
+      <description>
+        
+          
+            In early 2016, I suggested an addition to the SncRedis-bundle. The project itself is an fully-featured add-on (&#39;bundle&#39;) for Symfony framework projects to easily do a number of very useful interface functions between Symfony and the Redis database/cache. It can, for example, quickly enable all the sessions to be put into a Redis server, and also cache the Doctrine meta-information as well as anything else that the developer would like to cache.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Recently....</title>
+      <link>https://phpscaling.com/post/recently/</link>
+      <pubDate>Tue, 03 Apr 2012 11:03:33 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/recently/</guid>
+      <description>
+        
+          
+            It&#39;s been one of those quiet spots around here for a while, so here&#39;s the catch-up on what has been happening while I was not posting.
+I&#39;ve recently finished a short contract working with an agency, Transform (part of the Engine group) working with a couple of government departments. The Office Of The Public Guardian receives, checks and stores Lasting Powers of Attorney - a legal document that you write while still mentally compentant to say what you would like to happen should the worst occur, and by whom you want to do it.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Doing the work elsewhere - Asynchronous Message Queues</title>
+      <link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
+      <pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
+      <description>
+        
+          
+            The use of Beanstalkd as a queueing system What is an asynchronous queue The classic wikipedia quote (Message queue)
 In computer science, message queues and mailboxes are software-engineering components used for interprocess communication, or for inter-thread communication within the same process. They use a queue for messaging - the passing of control or of content. Group communication systems provide similar kinds of functionality.
-So one part of a system puts a message into a queue for another part to read from, and then act upon.</description></item></channel></rss>
+So one part of a system puts a message into a queue for another part to read from, and then act upon.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

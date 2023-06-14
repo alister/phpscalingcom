@@ -1,11 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>testing on PHP Scaling</title><link>https://phpscaling.com/tags/testing/</link><description>Recent content in testing on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Wed, 19 Sep 2018 21:42:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Speeding up your tests, and also your code coverage!</title><link>https://phpscaling.com/post/speeding-up-your-tests/</link><pubDate>Wed, 19 Sep 2018 21:42:44 +0000</pubDate><guid>https://phpscaling.com/post/speeding-up-your-tests/</guid><description>
-Slow running tests are a bug - they stop you from doing as much as you can with your code, &amp;amp; its quality. Spend a little time working on making your tests better, clearer, and faster - and you'll reap rewards from your work.
-I've had a couple of useful improvements in the time spent running my PHPunit tests recently.
-First was avoiding setting up the database in each test, and using the Alice library (via AliceBundle) to pre-create at least the majority of the data my tests will need.</description></item><item><title>Improve your code coverage percentage - delete code!</title><link>https://phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</link><pubDate>Mon, 04 Sep 2017 12:14:17 +0000</pubDate><guid>https://phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</guid><description>
-A recent post showed how to setup Code Tombstones - but there are other , even more insidious pieces of code in a project. The code you know you aren't using now, but you wrote ahead of time - because you think it will be useful, or you have plans for it, or any one of a dozen more reasons.
-Chances are - you might never get back to it, and it's just taking up important space.</description></item><item><title>Replacing @expectedException with $this->expectException()</title><link>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link><pubDate>Tue, 08 Aug 2017 18:59:44 +0000</pubDate><guid>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid><description>
-One of the advantages of a side-project is that you can be a little extra passionate about getting things just right. If you want to increase code coverage because you think that it's good, you can - after all, it's just some time now doing things that you like.
-So, earlier in the year, when I saw Sebastian Bergmann's article on 'Questioning PHPUnit Best Practices', I added it to a little (well, it currently stands at a count of 20 items.</description></item><item><title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title><link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link><pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate><guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid><description>
-Having just watched Sebastian Bergmann's &amp;quot;The State of PHPUnit&amp;quot; presentation from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>testing on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/testing/</link>
+    <description>Recent content in testing on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Wed, 19 Sep 2018 21:42:44 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speeding up your tests, and also your code coverage!</title>
+      <link>https://phpscaling.com/post/speeding-up-your-tests/</link>
+      <pubDate>Wed, 19 Sep 2018 21:42:44 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/speeding-up-your-tests/</guid>
+      <description>
+        
+          
+            Slow running tests are a bug - they stop you from doing as much as you can with your code, &amp;amp; its quality. Spend a little time working on making your tests better, clearer, and faster - and you&#39;ll reap rewards from your work.
+I&#39;ve had a couple of useful improvements in the time spent running my PHPunit tests recently.
+First was avoiding setting up the database in each test, and using the Alice library (via AliceBundle) to pre-create at least the majority of the data my tests will need.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Improve your code coverage percentage - delete code!</title>
+      <link>https://phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</link>
+      <pubDate>Mon, 04 Sep 2017 12:14:17 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/improve-your-code-coverage-percentage-delete-code/</guid>
+      <description>
+        
+          
+            A recent post showed how to setup Code Tombstones - but there are other , even more insidious pieces of code in a project. The code you know you aren&#39;t using now, but you wrote ahead of time - because you think it will be useful, or you have plans for it, or any one of a dozen more reasons.
+Chances are - you might never get back to it, and it&#39;s just taking up important space.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Replacing @expectedException with $this-&gt;expectException()</title>
+      <link>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</link>
+      <pubDate>Tue, 08 Aug 2017 18:59:44 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/replacing-expectedexception-with-this-expectexception/</guid>
+      <description>
+        
+          
+            One of the advantages of a side-project is that you can be a little extra passionate about getting things just right. If you want to increase code coverage because you think that it&#39;s good, you can - after all, it&#39;s just some time now doing things that you like.
+So, earlier in the year, when I saw Sebastian Bergmann&#39;s article on &#39;Questioning PHPUnit Best Practices&#39;, I added it to a little (well, it currently stands at a count of 20 items.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title>
+      <link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
+      <pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
+      <description>
+        
+          
+            Having just watched Sebastian Bergmann&#39;s &amp;quot;The State of PHPUnit&amp;quot; presentation from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.
 composer global require &amp;quot;phpunit/phpunit&amp;quot;
-I installed it as a new, global, tool because in my project I am using the &amp;quot;ibuildings/qa-tools&amp;quot; repository to install and help run a number of QA tools - and the stable 1.</description></item></channel></rss>
+I installed it as a new, global, tool because in my project I am using the &amp;quot;ibuildings/qa-tools&amp;quot; repository to install and help run a number of QA tools - and the stable 1.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

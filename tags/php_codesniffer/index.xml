@@ -1,3 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP_CodeSniffer on PHP Scaling</title><link>https://phpscaling.com/tags/php_codesniffer/</link><description>Recent content in PHP_CodeSniffer on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Tue, 11 Mar 2008 17:16:57 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/php_codesniffer/index.xml" rel="self" type="application/rss+xml"/><item><title>A useful idea for helping to enforce PHP code standards</title><link>https://phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</link><pubDate>Tue, 11 Mar 2008 17:16:57 +0000</pubDate><guid>https://phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</guid><description>
-A more recent tool to use I'd suggest using phpcsfixer with one of the default coding standards - PSR-12/PER-Coding-style or @Symfony.
-Extending PHP_CodeSniffer by Raphael Stolt shows how to quite easily add to a tool that will report what parts of your PHP source needs a clean-up, from the built in 'sniffs' for coding standards, and now adding to that for some slightly more opinionated choices on the maximum number of lines per function, or functions per class.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP_CodeSniffer on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/php_codesniffer/</link>
+    <description>Recent content in PHP_CodeSniffer on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Tue, 11 Mar 2008 17:16:57 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/php_codesniffer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A useful idea for helping to enforce PHP code standards</title>
+      <link>https://phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</link>
+      <pubDate>Tue, 11 Mar 2008 17:16:57 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/a-useful-idea-for-helping-to-enforce-php-code-standards/</guid>
+      <description>
+        
+          
+            A more recent tool to use I&#39;d suggest using phpcsfixer with one of the default coding standards - PSR-12/PER-Coding-style or @Symfony.
+Extending PHP_CodeSniffer by Raphael Stolt shows how to quite easily add to a tool that will report what parts of your PHP source needs a clean-up, from the built in &#39;sniffs&#39; for coding standards, and now adding to that for some slightly more opinionated choices on the maximum number of lines per function, or functions per class.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

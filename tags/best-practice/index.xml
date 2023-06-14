@@ -1,8 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>best-practice on PHP Scaling</title><link>https://phpscaling.com/tags/best-practice/</link><description>Recent content in best-practice on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Thu, 11 Jun 2015 13:04:07 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/best-practice/index.xml" rel="self" type="application/rss+xml"/><item><title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title><link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link><pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate><guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid><description>
-Having just watched Sebastian Bergmann's &amp;quot;The State of PHPUnit&amp;quot; presentation from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>best-practice on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/best-practice/</link>
+    <description>Recent content in best-practice on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Thu, 11 Jun 2015 13:04:07 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/best-practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrading PHPunit - fixing PHPUnit_Util_DeprecatedFeature_Logger</title>
+      <link>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</link>
+      <pubDate>Thu, 11 Jun 2015 13:04:07 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/</guid>
+      <description>
+        
+          
+            Having just watched Sebastian Bergmann&#39;s &amp;quot;The State of PHPUnit&amp;quot; presentation from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.
 composer global require &amp;quot;phpunit/phpunit&amp;quot;
-I installed it as a new, global, tool because in my project I am using the &amp;quot;ibuildings/qa-tools&amp;quot; repository to install and help run a number of QA tools - and the stable 1.</description></item><item><title>Deployment with Capistrano - the Gotchas</title><link>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link><pubDate>Thu, 24 Nov 2011 12:16:59 +0000</pubDate><guid>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid><description>
-Capistrano, makes deployment of code easy. If you need to do a number of additional steps as well, then the fact that they can be scripted and run automatically is a huge win.
-If you've only got a single machine (or maybe two), then you could certainly write your own quite simple, and entirely workable system - I described something just like this in a previous post: &amp;quot;SVN checkouts vs exports for live versions&amp;quot;.</description></item><item><title>svn checkouts vs exports for live versions</title><link>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</link><pubDate>Sun, 09 Mar 2008 19:45:30 +0000</pubDate><guid>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</guid><description>
-I've read http://www.svn-checkout.co.uk/2008/01/19/how-to-release-new-versions-of-websites/ via http://www.lornajane.net/posts/2008/SVN-Deployment-and-a-New-Site and while I consider revision control an essential tool (a few years ago, my job was the only one in the previous five years where I didn't have to install my own RCS), I somewhat disagree on the idea they suggest.
-That first link, 'how to release new versions of websites', suggests checking out a version of the site as a working copy, (it's certainly something I've done before now), but then it goes on to use the 'svn switch' capability to move between versions (of course, they are also doing in in TortoiseSvn, and there for the live web-server is likely to be running Windows, no way I'd run a server on Windows - not even for testing).</description></item></channel></rss>
+I installed it as a new, global, tool because in my project I am using the &amp;quot;ibuildings/qa-tools&amp;quot; repository to install and help run a number of QA tools - and the stable 1.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deployment with Capistrano - the Gotchas</title>
+      <link>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</link>
+      <pubDate>Thu, 24 Nov 2011 12:16:59 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/deployment-with-capistrano-the-gotchas/</guid>
+      <description>
+        
+          
+            Capistrano, makes deployment of code easy. If you need to do a number of additional steps as well, then the fact that they can be scripted and run automatically is a huge win.
+If you&#39;ve only got a single machine (or maybe two), then you could certainly write your own quite simple, and entirely workable system - I described something just like this in a previous post: &amp;quot;SVN checkouts vs exports for live versions&amp;quot;.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>svn checkouts vs exports for live versions</title>
+      <link>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</link>
+      <pubDate>Sun, 09 Mar 2008 19:45:30 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/svn-checkouts-vs-exports-for-live-versions/</guid>
+      <description>
+        
+          
+            I&#39;ve read http://www.svn-checkout.co.uk/2008/01/19/how-to-release-new-versions-of-websites/ via http://www.lornajane.net/posts/2008/SVN-Deployment-and-a-New-Site and while I consider revision control an essential tool (a few years ago, my job was the only one in the previous five years where I didn&#39;t have to install my own RCS), I somewhat disagree on the idea they suggest.
+That first link, &#39;how to release new versions of websites&#39;, suggests checking out a version of the site as a working copy, (it&#39;s certainly something I&#39;ve done before now), but then it goes on to use the &#39;svn switch&#39; capability to move between versions (of course, they are also doing in in TortoiseSvn, and there for the live web-server is likely to be running Windows, no way I&#39;d run a server on Windows - not even for testing).
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

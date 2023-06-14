@@ -1,7 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rants on PHP Scaling</title><link>https://phpscaling.com/tags/rants/</link><description>Recent content in rants on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Mon, 09 Jan 2012 17:32:22 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/rants/index.xml" rel="self" type="application/rss+xml"/><item><title>Hire quickly: Addendum, recruiters</title><link>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</link><pubDate>Mon, 09 Jan 2012 17:32:22 +0000</pubDate><guid>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</guid><description>
-Recruiters: Here's the rules.
-The first recruiter to tell me the company name, and then send the job-spec gets to forward my details - if I think it's interesting. No company name, or spec, no chance If you send my details without my OK, you lose. And I tell the company you are a loser (chances are, they are too). Sending me all the information I could want to know is good - but when you do it on spec (and probably en-mass as well), does not mean that you get to claim the bounty.</description></item><item><title>Hire quickly, because your competitors will.</title><link>https://phpscaling.com/post/hire-quickly-because-your-competitors-will/</link><pubDate>Thu, 05 Jan 2012 13:11:01 +0000</pubDate><guid>https://phpscaling.com/post/hire-quickly-because-your-competitors-will/</guid><description>
-If you aren't taking hiring seriously - other people can, and do hire the people you need.
-I've been guilty of it before - leaving it a couple of days - or even a week before getting back to someone that sent in their CV - although of course, most of the time, it didn't matter. The person wasn't going to get hired because they were just not good enough (the generally poor quality of developers is a different rant).</description></item><item><title>Booze at tech meetups</title><link>https://phpscaling.com/post/booze-at-meetups/</link><pubDate>Tue, 13 Dec 2011 17:12:48 +0000</pubDate><guid>https://phpscaling.com/post/booze-at-meetups/</guid><description>
-I was out last night at the The Big Xmas [bash] #, near Silicon Roundabout. It was a fun night out meeting various people, tech, business and recruiters. Oh, the shame though - I was wearing the same T-shirt as someone else - and, yes, I have indeed replaced people with small shell scripts.
-Now, to the main part of what this post is about - the rant. It's not aimed at the particular event last night alone though.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rants on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/rants/</link>
+    <description>Recent content in rants on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Mon, 09 Jan 2012 17:32:22 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/rants/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hire quickly: Addendum, recruiters</title>
+      <link>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</link>
+      <pubDate>Mon, 09 Jan 2012 17:32:22 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/hire-quickly-addendum-recruiters/</guid>
+      <description>
+        
+          
+            Recruiters: Here&#39;s the rules.
+The first recruiter to tell me the company name, and then send the job-spec gets to forward my details - if I think it&#39;s interesting. No company name, or spec, no chance If you send my details without my OK, you lose. And I tell the company you are a loser (chances are, they are too). Sending me all the information I could want to know is good - but when you do it on spec (and probably en-mass as well), does not mean that you get to claim the bounty.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Hire quickly, because your competitors will.</title>
+      <link>https://phpscaling.com/post/hire-quickly-because-your-competitors-will/</link>
+      <pubDate>Thu, 05 Jan 2012 13:11:01 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/hire-quickly-because-your-competitors-will/</guid>
+      <description>
+        
+          
+            If you aren&#39;t taking hiring seriously - other people can, and do hire the people you need.
+I&#39;ve been guilty of it before - leaving it a couple of days - or even a week before getting back to someone that sent in their CV - although of course, most of the time, it didn&#39;t matter. The person wasn&#39;t going to get hired because they were just not good enough (the generally poor quality of developers is a different rant).
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Booze at tech meetups</title>
+      <link>https://phpscaling.com/post/booze-at-meetups/</link>
+      <pubDate>Tue, 13 Dec 2011 17:12:48 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/booze-at-meetups/</guid>
+      <description>
+        
+          
+            I was out last night at the The Big Xmas [bash] #, near Silicon Roundabout. It was a fun night out meeting various people, tech, business and recruiters. Oh, the shame though - I was wearing the same T-shirt as someone else - and, yes, I have indeed replaced people with small shell scripts.
+Now, to the main part of what this post is about - the rant. It&#39;s not aimed at the particular event last night alone though.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

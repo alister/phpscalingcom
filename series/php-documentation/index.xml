@@ -1,6 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>php-documentation on PHP Scaling</title><link>https://phpscaling.com/series/php-documentation/</link><description>Recent content in php-documentation on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Mon, 24 Mar 2008 15:38:28 +0000</lastBuildDate><atom:link href="https://phpscaling.com/series/php-documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Always have up to date documentation, part #2</title><link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link><pubDate>Mon, 24 Mar 2008 15:38:28 +0000</pubDate><guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid><description>
-see my previous post on the topic, #1.
-My last post ended up more as a how-to than what-to. This time, I'll say why you should have local copies of the documentation for most of the tools you use. I'll also tell you the sort of things I always have handy as well.
-Getting a local copy of php.net - and getting installed as an apache vhost and updated (probably weekly) is some effort, but well worth it.</description></item><item><title>Always have up to date documentation, part #1</title><link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</link><pubDate>Sun, 16 Mar 2008 23:41:00 +0000</pubDate><guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</guid><description>
-As I mentioned in my second post, ZCE prep – and dumb tests - about open book tests (like Brainbench), having a copy of all the relevant documentation can be incredibly useful, if only from a speed issue. Knowing you can just open a new tab and type a few words to get the information on a function, or concept from the manual takes away so many problems.
-I mentioned there that I have a local copy of the main PHP manual – and I wanted to tell you how I keep it, and a couple of other manuals up to date, as well as other documentation.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php-documentation on PHP Scaling</title>
+    <link>https://phpscaling.com/series/php-documentation/</link>
+    <description>Recent content in php-documentation on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Mon, 24 Mar 2008 15:38:28 +0000</lastBuildDate><atom:link href="https://phpscaling.com/series/php-documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Always have up to date documentation, part #2</title>
+      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</link>
+      <pubDate>Mon, 24 Mar 2008 15:38:28 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-2/</guid>
+      <description>
+        
+          
+            see my previous post on the topic, #1.
+My last post ended up more as a how-to than what-to. This time, I&#39;ll say why you should have local copies of the documentation for most of the tools you use. I&#39;ll also tell you the sort of things I always have handy as well.
+Getting a local copy of php.net - and getting installed as an apache vhost and updated (probably weekly) is some effort, but well worth it.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Always have up to date documentation, part #1</title>
+      <link>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</link>
+      <pubDate>Sun, 16 Mar 2008 23:41:00 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/always-have-up-to-date-documentation-part-1/</guid>
+      <description>
+        
+          
+            As I mentioned in my second post, ZCE prep – and dumb tests - about open book tests (like Brainbench), having a copy of all the relevant documentation can be incredibly useful, if only from a speed issue. Knowing you can just open a new tab and type a few words to get the information on a function, or concept from the manual takes away so many problems.
+I mentioned there that I have a local copy of the main PHP manual – and I wanted to tell you how I keep it, and a couple of other manuals up to date, as well as other documentation.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kindle on PHP Scaling</title><link>https://phpscaling.com/tags/kindle/</link><description>Recent content in kindle on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Tue, 27 Dec 2011 15:16:40 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/kindle/index.xml" rel="self" type="application/rss+xml"/><item><title>Jailbreaking your Kindle, and putting new 'screensaver' images</title><link>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</link><pubDate>Tue, 27 Dec 2011 15:16:40 +0000</pubDate><guid>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</guid><description>
-A quick fun post for those of you with an Amazon Kindle - some instructions on how to a) jailbreak your reader (trivially easy), and then b) put your own wallpapers on there, so you get a more interesting 'screensaver'.
-It's really easy, no more than 20 mins and a couple of reboots/software updates. Most of the time is literally waiting for the reader to restart after you've placed a file in the base directory.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kindle on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/kindle/</link>
+    <description>Recent content in kindle on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Tue, 27 Dec 2011 15:16:40 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jailbreaking your Kindle, and putting new &#39;screensaver&#39; images</title>
+      <link>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</link>
+      <pubDate>Tue, 27 Dec 2011 15:16:40 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/jailbreaking-your-kindle-and-putting-new-screensaver-images/</guid>
+      <description>
+        
+          
+            A quick fun post for those of you with an Amazon Kindle - some instructions on how to a) jailbreak your reader (trivially easy), and then b) put your own wallpapers on there, so you get a more interesting &#39;screensaver&#39;.
+It&#39;s really easy, no more than 20 mins and a couple of reboots/software updates. Most of the time is literally waiting for the reader to restart after you&#39;ve placed a file in the base directory.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

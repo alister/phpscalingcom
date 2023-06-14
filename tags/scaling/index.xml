@@ -1,8 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>scaling on PHP Scaling</title><link>https://phpscaling.com/tags/scaling/</link><description>Recent content in scaling on PHP Scaling</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright><lastBuildDate>Tue, 06 Oct 2009 22:30:26 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/scaling/index.xml" rel="self" type="application/rss+xml"/><item><title>Doing the work elsewhere - Adding a job to the queue</title><link>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link><pubDate>Tue, 06 Oct 2009 22:30:26 +0000</pubDate><guid>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid><description>
-I've previously shown you why you may want to put some tasks through a queuing system, what sort of jobs you could define, plus how to keep a worker process running for as long as you would like (but still be mindful of problems that happen).
-In this post, I'll show you how to put the messages into the queue, and we'll also make a start on reading them back out.</description></item><item><title>Doing the work elsewhere - Sidebar - running the worker</title><link>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</link><pubDate>Tue, 23 Jun 2009 21:19:33 +0000</pubDate><guid>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</guid><description>
-I'm taking a slight diversion now, to show you how the main worker processor runs. There are two parts to it - the actual worker, written in PHP, and the script that keeps running it.
-For testing with return from the worker, we'll just return a random number. In order to avoid returning a normally used exit value, I've picked a few numbers for our controls, up around the 100 range.</description></item><item><title>Doing the work elsewhere - Asynchronous Message Queues</title><link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link><pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate><guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid><description>
-The use of Beanstalkd as a queueing system What is an asynchronous queue The classic wikipedia quote (Message queue)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scaling on PHP Scaling</title>
+    <link>https://phpscaling.com/tags/scaling/</link>
+    <description>Recent content in scaling on PHP Scaling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2023, Alister Bulman; all rights reserved</copyright>
+    <lastBuildDate>Tue, 06 Oct 2009 22:30:26 +0000</lastBuildDate><atom:link href="https://phpscaling.com/tags/scaling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doing the work elsewhere - Adding a job to the queue</title>
+      <link>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</link>
+      <pubDate>Tue, 06 Oct 2009 22:30:26 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-adding-a-job-to-the-queue/</guid>
+      <description>
+        
+          
+            I&#39;ve previously shown you why you may want to put some tasks through a queuing system, what sort of jobs you could define, plus how to keep a worker process running for as long as you would like (but still be mindful of problems that happen).
+In this post, I&#39;ll show you how to put the messages into the queue, and we&#39;ll also make a start on reading them back out.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Doing the work elsewhere - Sidebar - running the worker</title>
+      <link>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</link>
+      <pubDate>Tue, 23 Jun 2009 21:19:33 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-sidebar-running-the-worker/</guid>
+      <description>
+        
+          
+            I&#39;m taking a slight diversion now, to show you how the main worker processor runs. There are two parts to it - the actual worker, written in PHP, and the script that keeps running it.
+For testing with return from the worker, we&#39;ll just return a random number. In order to avoid returning a normally used exit value, I&#39;ve picked a few numbers for our controls, up around the 100 range.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Doing the work elsewhere - Asynchronous Message Queues</title>
+      <link>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</link>
+      <pubDate>Wed, 10 Jun 2009 15:43:29 +0000</pubDate>
+      
+      <guid>https://phpscaling.com/post/doing-the-work-elsewhere-asynchronous-message-queues/</guid>
+      <description>
+        
+          
+            The use of Beanstalkd as a queueing system What is an asynchronous queue The classic wikipedia quote (Message queue)
 In computer science, message queues and mailboxes are software-engineering components used for interprocess communication, or for inter-thread communication within the same process. They use a queue for messaging - the passing of control or of content. Group communication systems provide similar kinds of functionality.
-So one part of a system puts a message into a queue for another part to read from, and then act upon.</description></item></channel></rss>
+So one part of a system puts a message into a queue for another part to read from, and then act upon.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
