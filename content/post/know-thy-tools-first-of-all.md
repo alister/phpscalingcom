@@ -3,6 +3,7 @@ title: 'Know thy tools first of all'
 date: Mon, 17 Mar 2008 20:09:22 +0000
 draft: false
 tags: ['php', 'zend framework']
+aliases: ['/2008/03/17/know-thy-tools-first-of-all/']
 ---
 
 When you have a library, like [PEAR](http://pear.php.net) or [Zend Framework](http://framework.zend.com) – or even just the whole [PHP](http://www.php.net) language library – it’s absolutely vital you know what it can do.

@@ -4,6 +4,7 @@ date: Sat, 30 May 2009 14:20:23 +0000
 draft: false
 tags: ['me', 'php', 'zce']
 series: zce
+aliases: ['/2009/05/30/i-laugh-at-your-zce-exam-prep-tests-2/']
 ---
 
 Back at the PHP London Conference at the end of February, iBuildings was offering a little test, with prize for people that could do well answering the sort of questions that are on the ZCE exam. Never one to turn down something useful for free, I took ten minutes to answer the eight questions. A few weeks later, I get an email from them/Zend to say I'd won the chance to take an exam – ZCE, or ZFE (Zend Framework). Although I use ZF, I don't know it well enough to begin to pass any exam, so as I've still not had the chance to take it, I figured, why not take it on their dime?

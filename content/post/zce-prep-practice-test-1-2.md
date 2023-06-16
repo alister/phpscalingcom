@@ -4,6 +4,7 @@ date: Thu, 13 Mar 2008 21:33:00 +0000
 draft: false
 tags: ['me', 'php', 'zce']
 series: zce
+aliases: ['/2008/03/13/zce-prep-practice-test-1-2/']
 ---
 
 Well, I've just completed the [PHP Arch 'Vulcan' practice test](https://web.archive.org/web/20080302071710/http://www.phparch.com/c/product/vulcan/view) – the first of up to five such practice tests I've purchased. I have quite deliberately not gone through what study materials I have on hand before I took this test (I wanted to get a baseline), but none the less got an 'EXCELLENT' final score, and the same 'Excellent' on seven of the twelve sections the pre-test is broken down into. 'Pass' on four others, and just one 'Fail' on the design (patterns) section. If the real test worked much the same – and with a composite score, rather than having to pass all sections – I doubt I would have a problem to have gotten a passing grade.

@@ -3,6 +3,7 @@ title: 'Hire quickly: Addendum, recruiters'
 date: Mon, 09 Jan 2012 17:32:22 +0000
 draft: false
 tags: ['hiring', 'Aside', 'quick', 'quick', 'rants']
+aliases: ['/2012/01/09/hire-quickly-addendum-recruiters/']
 ---
 
 Recruiters: Here's the rules.

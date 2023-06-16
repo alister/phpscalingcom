@@ -3,6 +3,7 @@ title: 'Deployment with Capistrano - the Gotchas'
 date: Thu, 24 Nov 2011 12:16:59 +0000
 draft: false
 tags: ['best-practice', 'deployment', 'tools']
+aliases: ['/2011/11/24/deployment-with-capistrano-the-gotchas/']
 ---
 
 **Capistrano**, makes deployment of code easy. If you need to do a number of additional steps as well, then the fact that they can be scripted and run automatically is a huge win.

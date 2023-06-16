@@ -3,6 +3,7 @@ title: 'Investigating RedisGraph'
 date: Thu, 06 Dec 2018 13:31:44 +0000
 draft: false
 tags: ['advanced', 'graphdb', 'redis', 'tools']
+aliases: ['/2018/12/06/investigating-redisgraph/']
 ---
 
 <img src="/images/RedisGraph-logo.png" alt="RedisGraph logo" align="right"> Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using [RedisGraph PHP Client](https://github.com/kjdev/php-redis-graph) back in late October, as part of my regular scan of the [packagist feed](https://packagist.org/feeds/) for new PHP/Composer packages.

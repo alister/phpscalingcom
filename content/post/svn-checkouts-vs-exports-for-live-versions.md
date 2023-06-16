@@ -3,6 +3,7 @@ title: 'svn checkouts vs exports for live versions'
 date: Sun, 09 Mar 2008 19:45:30 +0000
 draft: false
 tags: ['best-practice', 'linux', 'subversion', 'tools']
+aliases: ['/2008/03/09/svn-checkouts-vs-exports-for-live-versions/']
 ---
 
 I've read [http://www.svn-checkout.co.uk/2008/01/19/how-to-release-new-versions-of-websites/](http://www.svn-checkout.co.uk/2008/01/19/how-to-release-new-versions-of-websites/ "How to release new versions of websites") via [http://www.lornajane.net/posts/2008/SVN-Deployment-and-a-New-Site](http://www.lornajane.net/posts/2008/SVN-Deployment-and-a-New-Site) and while I consider revision control an essential tool (a few years ago, my job was the only one in the previous five years where I didn't have to install my own RCS), I somewhat disagree on the idea they suggest.

@@ -3,6 +3,7 @@ title: 'Riddled me that'
 date: Thu, 24 Apr 2008 19:56:18 +0000
 draft: false
 tags: ['php']
+aliases: ['/2008/04/24/riddled-me-that/']
 ---
 
 Well go figure. I’ve just won $50 (Canadian, that’s about $3000 USD by now) of books and ‘stuff’ from [PHP Arch](http://phparch.com/), care of its publisher, [Marco Tabini's, blog](http://blog.tabini.ca/2008/04/riddle-me-this-and-win-50-in-phparchitect-coupons/).

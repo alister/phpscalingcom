@@ -3,6 +3,7 @@ title: 'Recently....'
 date: Tue, 03 Apr 2012 11:03:33 +0000
 draft: false
 tags: ['advanced', 'contracting', 'funemployment', 'linux', 'puppet', 'tools']
+aliases: ['/2012/04/03/recently/']
 ---
 
 It's been one of those quiet spots around here for a while, so here's the catch-up on what has been happening while I was not posting.

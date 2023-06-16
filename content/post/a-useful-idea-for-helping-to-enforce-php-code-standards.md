@@ -3,6 +3,7 @@ title: 'A useful idea for helping to enforce PHP code standards'
 date: Tue, 11 Mar 2008 17:16:57 +0000
 draft: false
 tags: ['php', 'PHP_CodeSniffer', 'standards']
+aliases: ['/2008/03/11/a-useful-idea-for-helping-to-enforce-php-code-standards/']
 ---
 
 {{% notice tip "A more recent tool to use" %}}

@@ -3,6 +3,7 @@ title: 'Back from the coalface'
 date: Wed, 23 Nov 2011 11:48:46 +0000
 draft: false
 tags: ['fun', 'funemployment', 'me', 'Status', 'quick']
+aliases: ['/2011/11/23/back-from-the-coalface/']
 ---
 
 I've been pretty busy in the last couple of years, first at [Binweevils](http://www.binweevils.com/) and in 2011, [PeerIndex](http://www.peerindex.com/) - hence the utter lack of posts, but as the note on my [personal CV](http://abulman.co.uk/now) site says, I'm taking some time off between looking for my next role. This does give the opportunity to write more of PHP Scaling and the tools around development that I've been using in the last couple of years, and that have been piquing my curiosity.

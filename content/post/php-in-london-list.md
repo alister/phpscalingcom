@@ -3,6 +3,7 @@ title: 'PHP-in-London list'
 date: Tue, 29 Aug 2017 10:27:18 +0000
 draft: false
 tags: ['php', 'jobs']
+aliases: ['/2017/08/29/php-in-london-list/']
 ---
 
 While Twitter can be _really_ annoying, sometimes it can help to promote some wonderfully simple ideas.

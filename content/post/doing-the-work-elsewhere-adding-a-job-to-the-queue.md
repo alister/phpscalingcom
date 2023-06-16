@@ -4,6 +4,7 @@ date: Tue, 06 Oct 2009 22:30:26 +0000
 draft: false
 tags: ['beanstalkd', 'php', 'queues', 'scaling', 'tools', 'workers']
 series: queues
+aliases: ['/2009/10/06/doing-the-work-elsewhere-adding-a-job-to-the-queue/']
 ---
 
 I've previously shown you why you may want to put some tasks through a queuing system, what sort of jobs you could define, plus how to keep a worker process running for as long as you would like (but still be mindful of problems that happen).

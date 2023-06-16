@@ -4,6 +4,7 @@ date: Mon, 24 Mar 2008 15:38:28 +0000
 draft: false
 tags: ['php', 'tools', 'zend framework']
 series: php-documentation
+aliases: ['/2008/03/24/always-have-up-to-date-documentation-part-2/']
 ---
 
 see my [previous post](/post/always-have-up-to-date-documentation-part-1/) on the topic, #1.

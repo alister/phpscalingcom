@@ -5,6 +5,7 @@ date = "2023-06-12"
 aliases = ["about-me", "alister-bulman", "contact"]
 author = "Alister Bulman"
 thumbnail = "/assets/20120904-133752.Throne_crop.jpg"
+lastmod = 2023-06-14
 +++
 
 Hello. I'm [Alister Bulman](https://www.google.com/search?q=alister+bulman) (ode to the usefulness of a unique name). I live in West London, but I lived for most of my life in Bournemouth, on the south coast of the UK.

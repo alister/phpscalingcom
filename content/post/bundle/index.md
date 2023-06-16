@@ -5,7 +5,6 @@ summary: "Page bundles are an optional way to organize page resources within Hug
 date: '2022-03-24'
 aliases:
   - hugo-page-bundles
-author: 'Hugo Authors'
 usePageBundles: true
 
 featureImage: 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80' # Top image on post.

@@ -4,6 +4,7 @@ date: Tue, 23 Jun 2009 21:19:33 +0000
 draft: false
 tags: ['beanstalkd', 'php', 'queues', 'scaling', 'workers']
 series: queues
+aliases: ['/2009/06/23/doing-the-work-elsewhere-sidebar-running-the-worker/']
 ---
 
 I'm taking a slight diversion now, to show you how the main worker processor runs. There are two parts to it - the actual worker, written in PHP, and the script that keeps running it.

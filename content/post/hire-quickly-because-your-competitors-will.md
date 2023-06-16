@@ -3,6 +3,7 @@ title: 'Hire quickly, because your competitors will.'
 date: Thu, 05 Jan 2012 13:11:01 +0000
 draft: false
 tags: ['hiring', 'rants']
+aliases: ['/2012/01/05/hire-quickly-because-your-competitors-will/']
 ---
 
 If you aren't taking hiring seriously - other people can, and do hire the people you need.

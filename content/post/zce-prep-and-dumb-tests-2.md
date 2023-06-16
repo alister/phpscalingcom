@@ -4,6 +4,7 @@ date: Mon, 10 Mar 2008 21:55:00 +0000
 draft: false
 tags: ['php', 'phplondon07', 'phplondon08', 'zce']
 series: zce
+aliases: ['/2008/03/10/zce-prep-and-dumb-tests-2/']
 ---
 
 This week I'm going to take the first of my PHPArch.com's [ZCE](http://www.zend.com/en/services/certification/) prep test – then I'll read the book and see they they expect me to know.

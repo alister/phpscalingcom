@@ -4,6 +4,7 @@ date: Tue, 08 Aug 2017 18:59:44 +0000
 draft: false
 tags: ['php', 'testing', 'tools', 'phpunit']
 series: phpunit
+aliases: ['/2017/08/08/replacing-expectedexception-with-this-expectexception/']
 ---
 
 One of the advantages of a side-project is that you can be a little extra passionate about getting things _just right_. If you want to increase code coverage because you think that it's good, you can - after all, it's just some time now doing things that you like.

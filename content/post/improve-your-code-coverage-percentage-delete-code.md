@@ -3,6 +3,7 @@ title: 'Improve your code coverage percentage - delete code!'
 date: Mon, 04 Sep 2017 12:14:17 +0000
 draft: false
 tags: ['php', 'testing']
+aliases: ['/2017/09/04/improve-your-code-coverage-percentage-delete-code/']
 ---
 
 A recent post showed how to setup [Code Tombstones](https://phpscaling.com/2017/08/28/code-tombstones/) - but there are other , even more insidious pieces of code in a project. The code you know you aren't using now, but you wrote ahead of time - because  you think it will be useful, or you have plans for it, or any one of a dozen more reasons.

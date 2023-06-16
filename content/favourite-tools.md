@@ -2,6 +2,7 @@
 title: 'Favourite tools'
 date: 2012-01-12
 draft: false
+lastmod: 2023-06-14
 ---
 
 A list of the tools that I currently use or are otherwise long-term favourites.

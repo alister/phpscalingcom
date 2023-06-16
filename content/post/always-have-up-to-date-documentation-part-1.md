@@ -4,6 +4,7 @@ date: Sun, 16 Mar 2008 23:41:00 +0000
 draft: false
 tags: ['php', 'tools']
 series: php-documentation
+aliases: ['/2008/03/16/always-have-up-to-date-documentation-part-1/']
 ---
 
 As I mentioned in my second post, [ZCE prep – and dumb tests](/post/zce-prep-and-dumb-tests-2/) - about open book tests (like Brainbench), having a copy of all the relevant documentation can be incredibly useful, if only from a speed issue. Knowing you can just open a new tab and type a few words to get the information on a function, or concept from the manual takes away so many problems.

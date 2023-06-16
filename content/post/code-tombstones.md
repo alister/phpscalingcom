@@ -3,6 +3,7 @@ title: 'Code Tombstones'
 date: Mon, 28 Aug 2017 18:43:06 +0000
 draft: false
 tags: ['php', 'tools']
+aliases: ['/2017/08/28/code-tombstones/']
 ---
 
 > Version 0.9 of [scheb/tombstone](https://github.com/scheb/tombstone) autoloads a file with a `tombstone()` function. See the bottom of the post for a fix to override that in your own code.

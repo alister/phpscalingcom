@@ -4,6 +4,7 @@ date: Wed, 10 Jun 2009 15:43:29 +0000
 draft: false
 tags: ['advanced', 'beanstalkd', 'php', 'queues', 'scaling', 'workers']
 series: queues
+aliases: ['/2009/06/10/doing-the-work-elsewhere-asynchronous-message-queues/']
 ---
 
 ## The use of Beanstalkd as a queueing system

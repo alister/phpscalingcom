@@ -4,6 +4,7 @@ date: Wed, 19 Sep 2018 21:42:44 +0000
 draft: false
 tags: ['php', 'testing', 'tools', 'phpunit']
 series: phpunit
+aliases: ['/2018/09/19/speeding-up-your-tests/']
 ---
 
 Slow running tests are a bug - they stop you from doing as much as you can with your code, & its quality. Spend a little time working on making your tests better, clearer, and faster - and you'll reap rewards from your work.

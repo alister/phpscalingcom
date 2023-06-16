@@ -4,6 +4,7 @@ date: Thu, 11 Jun 2015 13:04:07 +0000
 draft: false
 tags: ['best-practice', 'phpunit', 'testing', 'tools']
 series: phpunit
+aliases: ['/2015/06/11/upgrading-phpunit-fixing-phpunit_util_deprecatedfeature_logger/']
 ---
 
 Having just watched Sebastian Bergmann's ["The State of PHPUnit" presentation](https://ftp.belnet.be/mirror/FOSDEM/video/2015/devroom-php_and_friends/thestateofphpunit.mp4) from Fosdem 2015, I was inspired to install and test a project of mine with the latest stable PHPUnit - v4.7. It was easily installed on the command line.

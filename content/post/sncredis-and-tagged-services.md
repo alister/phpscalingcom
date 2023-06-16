@@ -3,6 +3,7 @@ title: 'SncRedis and tagged services'
 date: Wed, 27 Sep 2017 14:17:47 +0000
 draft: false
 tags: ['advanced', 'php', 'symfony']
+aliases: ['/2017/09/27/sncredis-and-tagged-services/']
 ---
 
 In early 2016, I suggested an addition to the SncRedis-bundle. The project itself is an fully-featured add-on ('bundle') for Symfony framework projects to easily do a number of very useful interface functions between Symfony and the Redis database/cache.  It can, for example, quickly enable all the sessions to be put into a Redis server, and also cache the Doctrine meta-information as well as anything else that the developer would like to cache.

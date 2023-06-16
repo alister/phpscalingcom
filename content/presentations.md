@@ -3,6 +3,7 @@ title: 'Presentations, May 2010 and July 2012, on Queueing'
 date: Wed, 18 Jul 2012 21:40:24 +0000
 draft: false
 tags: ['beanstalkd', 'Aside', 'presentation']
+aliases: ['/2012/07/18/presentations/']
 ---
 
 Just a quick note to point out a couple of presentations on Queuing. I've recently shown the second (which admittedly has some significant things in common with the original, and not just the web-based slides).

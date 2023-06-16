@@ -3,6 +3,7 @@ title: 'Upcoming posts - keep watching'
 date: Tue, 02 Jun 2009 10:28:55 +0000
 draft: false
 tags: ['php', 'quick']
+aliases: ['/2009/06/02/upcoming-posts-keep-watching/']
 ---
 
 Just a quick note on what is going to be posted in the next few weeks – I've got a few significant pieces in mind for various topics – including:

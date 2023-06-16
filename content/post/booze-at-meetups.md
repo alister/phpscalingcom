@@ -3,6 +3,7 @@ title: 'Booze at tech meetups'
 date: Tue, 13 Dec 2011 17:12:48 +0000
 draft: false
 tags: ['meetups', 'Aside', 'quick', 'rants']
+aliases: ['/2011/12/13/booze-at-meetups/']
 ---
 
 ![Go away t-shirt :right](/images/lg-go-away-tshirt.jpg) I was out last night at the [The Big Xmas \[bash\] #](http://lanyrd.com/2011/the-big-xmas-bash/), near Silicon Roundabout. It was a fun night out meeting various people, tech, business and recruiters. _Oh, the shame_ though - I was wearing the same T-shirt as someone else - and, yes, I have indeed replaced people with small shell scripts.

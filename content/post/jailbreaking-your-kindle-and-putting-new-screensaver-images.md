@@ -3,6 +3,7 @@ title: 'Jailbreaking your Kindle, and putting new ''screensaver'' images'
 date: Tue, 27 Dec 2011 15:16:40 +0000
 draft: false
 tags: ['fun', 'kindle', 'Aside', 'quick', 'quick']
+aliases: ['/2011/12/27/jailbreaking-your-kindle-and-putting-new-screensaver-images/']
 ---
 
 A quick fun post for those of you with an Amazon Kindle - some instructions on how to a) jailbreak your reader (trivially easy), and then b) put your own wallpapers on there, so you get a more interesting 'screensaver'.
