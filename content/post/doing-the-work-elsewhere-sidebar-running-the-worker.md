@@ -5,6 +5,7 @@ draft: false
 tags: ['beanstalkd', 'php', 'queues', 'scaling', 'workers']
 series: queues
 aliases: ['/2009/06/23/doing-the-work-elsewhere-sidebar-running-the-worker/']
+lastmod: 2023-06-28
 ---
 
 I'm taking a slight diversion now, to show you how the main worker processor runs. There are two parts to it - the actual worker, written in PHP, and the script that keeps running it.
@@ -35,14 +36,14 @@ Next time, we'll put some simple tasks into the queue.
 
 ### Comments:
 
-[cole]( "cabennett85@gmail.com") - <time datetime="2012-07-24 23:19:16">Jul 2, 2012</time>
+*cole* - <time datetime="2012-07-24 23:19:16">Jul 2, 2012</time>
 
 for the shell script i found i need to put an sh in the exec for it to rerun the script: `exec sh $0 $@;`
 
 is this something missing in the above code, or a config issue on my end that will break some key functionality here? sorry, bit of a n00b shell scripter
 <hr />
 
-[alister](http://abulman.co.uk/) - <time datetime="2012-07-24 23:46:43">Jul 2, 2012</time>
+*[Alister](http://abulman.co.uk/)* - <time datetime="2012-07-24 23:46:43">Jul 2, 2012</time>
 
 Hi! Questions are good, I'm happy to help out.
 
@@ -99,7 +100,7 @@ Here's a couple of peoples thoughts as to why it's not a great idea to have the 
 
 <hr />
 
-[Maxime]() - <time datetime="2012-07-27 00:30:27">Jul 5, 2012</time>
+*Maxime* - <time datetime="2012-07-27 00:30:27">Jul 5, 2012</time>
 
 I've follow the instruction and it's working perfectly when I execute the shell script in the console "./worker.sh". However I want this process to be detached from the console so I've added a "&" at the end of the command "./app/worker.sh &". But it's now working anymore, the detach process is ending automatically:
 
@@ -116,7 +117,7 @@ Any thoughts ?
 
 <hr />
 
-[alister](http://abulman.co.uk/) - <time datetime="2012-07-30 22:34:22">Jul 1, 2012</time>
+*[Alister](http://abulman.co.uk/)* - <time datetime="2012-07-30 22:34:22">Jul 1, 2012</time>
 
 Arranging for the workers to run is one of the harder parts of a major system. I'll write a post sometime with potential options. In the meantime, here's a few ideas:
 
@@ -126,7 +127,7 @@ Arranging for the workers to run is one of the harder parts of a major system. I
 
 <hr />
 
-[maxime]() - <time datetime="2012-07-30 23:22:45">Jul 1, 2012</time>
+*maxime* - <time datetime="2012-07-30 23:22:45">Jul 1, 2012</time>
 
 Actually it was because my PHP script was echoing some data and you can't run the shell script without redirecting the output.
 
@@ -134,14 +135,14 @@ Actually it was because my PHP script was echoing some data and you can't run th
 
 <hr />
 
-[Stanley]() - <time datetime="2012-08-15 03:44:56">Aug 3, 2012</time>
+*Stanley* - <time datetime="2012-08-15 03:44:56">Aug 3, 2012</time>
 
 Thanks for the article series. It is very helpful. I have some questions after reading your articles. How should we decide whether to do a planned pause/restart or planned restart?
 
 And what are the criteria used to trigger the planned restart and planned complete exit?
 <hr />
 
-[alister](http://abulman.co.uk/) - <time datetime="2012-08-23 13:43:14">Aug 4, 2012</time>
+*[Alister](http://abulman.co.uk/)* - <time datetime="2012-08-23 13:43:14">Aug 4, 2012</time>
 
 That depends very much on what sort of things your workers are doing. You might decide that if a worker has run, but there's nothing for them to do, you'll let the shell script pause for a while before it restarts. Equally, you might also elect to just have the beanstalk client block, waiting for the next job to become available - in that case, you might not have need of any planned pauses in the shell script at all.
 
@@ -151,4 +152,3 @@ The only difference between a planned and unplanned restart is that an unplanned
 [How feasible is a daemon written in PHP, using ignore_user abort and set_time_limit(0) - PHP Solutions - Developers Q &amp; A](http://stackoverflow.com/questions/1006891/how-feasible-is-a-daemon-written-in-php-using-ignore-user-abort-and-set-time-li "") - <time datetime="2013-08-12 03:39:56">Aug 1, 2013</time>
 
 [...] Addition: I’ve blogged on a Bash/PHP (or other language) pairing so that you can very easily loop in the PHP script, then exit to restart immediately, or pause for a while – Doing the work elsewhere — Sidebar running the worker. [...]
-<hr />
