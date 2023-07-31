@@ -1,4 +1,10 @@
+Sitemap: https://phpscaling.com/sitemap.xml
+
 User-agent: *
 Disallow: /wp-admin/
 
-Sitemap: https://phpscaling.com/sitemap.xml
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
