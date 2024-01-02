@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About me and this site."
-date = "2023-06-12"
+date = "2024-01-02"
 aliases = ["about-me", "alister-bulman", "contact"]
 author = "Alister Bulman"
 thumbnail = "/images/20120904-133752.Throne_crop.jpg"
@@ -14,7 +14,7 @@ This is the home for my technical discussions, suggestions, links to some very i
 
 I've been programming since 1981, when I first came across a [Commodore PET](http://en.wikipedia.org/wiki/Commodore_PET) in my classroom, and since 1987, I've pretty much made my entire living from programming - and with a long-time interest in the Internet in general, though it was to be several years after I got interested in online communication that I started writing websites (mostly because the World Wide Web hadn't been invented when I first started online).
 
-Now, as of the end of June 2023, I am back on the market, and looking for fully-remote back-end PHP/Symfony roles.
+**As of January 2024, I am back on the market, and looking for fully-remote back-end PHP/Symfony roles.**
 
 Links to my other work, including Stackoverflow, Github, LinkedIn, twitter, etc are available via [Contacts](/contact).
 
