@@ -4,7 +4,12 @@ date: Tue, 17 Oct 2023 20:35:48 +0100
 draft: false
 tags: ['BunnyCDN','FlySystem','Symfony']
 aliases: ['/2023/10/18/bunnycdn-via-flysystem-on-symfony/']
+lastmod: 2024-01-10T16:40:00Z
 ---
+
+{{% notice info "Comments?" %}}
+You can comment on this post on my [Mastodon post](https://mastodon.cloud/@Alister/111252101884533867) for "BunnyCDN via FlySystem on Symfony"
+{{% /notice %}}
 
 I've been refactoring the code at work to help move uploaded files off the main server, and also optimise the images when they are used <small>(no need to use a 4000 x 3000px 4.7MB file for a 500px wide thumbnail!)</small>. The standard library to upload files to a remote filesystem with PHP is [FlySystem](https://flysystem.thephpleague.com/docs/), it's been been easy to work with - even if it's not (yet) using Symfony on this project.
 

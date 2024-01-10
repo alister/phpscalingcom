@@ -4,7 +4,15 @@ date: Thu, 06 Dec 2018 13:31:44 +0000
 draft: false
 tags: ['advanced', 'graphdb', 'redis', 'tools']
 aliases: ['/2018/12/06/investigating-redisgraph/']
+lastmod: 2024-01-10T16:40:00Z
 ---
+
+{{% notice warning "RedisGraph is now in maintenance mode" %}}
+* As of July 5th, 2023 RedisGraph is no longer under active development. You can read more about the [end of life of RedisGraph](https://redis.com/blog/redisgraph-eol/).
+* There is an actively maintained fork of RedisGraph, in the form of [FalkorDB](https://github.com/FalkorDB/FalkorDB/).
+* <cite>from https://github.com/RedisGraph/RedisGraph</cite>
+{{% /notice %}}
+
 
 <img src="/images/RedisGraph-logo.png" alt="RedisGraph logo" align="right"> Thus far, I've not done anything serious with much more with database like Mysql, some Postgres and on the NoSql side MongoDB (with a frisson of some use of Redis for some barely-more-than basic things), but I saw some mention of using [RedisGraph PHP Client](https://github.com/kjdev/php-redis-graph) back in late October, as part of my regular scan of the [packagist feed](https://packagist.org/feeds/) for new PHP/Composer packages.
 

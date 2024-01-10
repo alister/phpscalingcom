@@ -8,7 +8,13 @@ codeLineNumbers: false # Override global value for showing of line numbers withi
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 toc: true # Controls if a table of contents should be generated for first-level links automatically.
 codeMaxLines: 25 # Override global value for how many lines within a code block before auto-collapsing.
+lastmod: 2024-01-10T16:40:00Z
 ---
+
+{{% notice info "Comments?" %}}
+You can comment on this post on my [Mastodon post](https://mastodon.cloud/@Alister/111728279387022221) for "It's All About The Data"
+{{% /notice %}}
+
 
 ## ... What should I use? Objects.
 

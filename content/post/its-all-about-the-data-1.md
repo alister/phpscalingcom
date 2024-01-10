@@ -7,8 +7,12 @@ description: "Arrays in PHP."
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 toc: true # Controls if a table of contents should be generated for first-level links automatically.
-lastmod: 2024-01-09T16:56:21Z
+lastmod: 2024-01-10T16:40:00Z
 ---
+
+{{% notice info "Comments?" %}}
+You can comment on this post on my [Mastodon post](https://mastodon.cloud/@Alister/111728279387022221) for "It's All About The Data"
+{{% /notice %}}
 
 ## ... and *arrays* aren't great for data
 
