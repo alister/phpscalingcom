@@ -1,1 +1,28 @@
-{"subject":"acct:Alister@mastodon.cloud","aliases":["https://mastodon.cloud/@Alister","https://mastodon.cloud/users/Alister"],"links":[{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://mastodon.cloud/@Alister"},{"rel":"self","type":"application/activity+json","href":"https://mastodon.cloud/users/Alister"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://mastodon.cloud/authorize_interaction?uri={uri}"}]}
+{
+    "aliases": [
+        "https://hachyderm.io/@alister",
+        "https://hachyderm.io/users/alister"
+    ],
+    "links": [
+        {
+            "href": "https://hachyderm.io/@alister",
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html"
+        },
+        {
+            "href": "https://hachyderm.io/users/alister",
+            "rel": "self",
+            "type": "application/activity+json"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://hachyderm.io/authorize_interaction?uri={uri}"
+        },
+        {
+            "href": "https://media.hachyderm.io/accounts/avatars/112/716/382/230/700/112/original/d49f1e8e6b45bcff.jpg",
+            "rel": "http://webfinger.net/rel/avatar",
+            "type": "image/jpeg"
+        }
+    ],
+    "subject": "acct:alister@hachyderm.io"
+}
