@@ -51,7 +51,7 @@
 [[social]]
   name = "Mastodon"
   weight = 2
-  url = "https://mastodon.cloud/@Alister"
+  url = "https://hachyderm.io/@Alister"
 [[social]]
   name = "stackoverflow"
   weight = 3
