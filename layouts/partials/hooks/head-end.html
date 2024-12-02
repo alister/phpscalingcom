@@ -1,3 +1,2 @@
-{{ with .Site.Params.fediverse_creator }}
-<meta name="fediverse:creator" content="{{ . }}" />
-{{ end }}
+{{ with .Site.Params.fediverse_creator }}<meta name="fediverse:creator" content="{{ . }}" />{{ end }}
+{{ with .Site.Params.fediverse_creator_url }}<meta rel="me" href="{{ . }}" />{{ end }}

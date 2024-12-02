@@ -9,7 +9,7 @@ lastmod: 2023-06-28
 I can be contacted in a number of ways.
 
 * Preferred: Email [abulman@gmail.com](mailto:abulman@gmail.com)
-* Mastodon: [https://hachyderm.io/@Alister](https://hachyderm.io/@Alister)
+* Mastodon: [@Alister@hachyderm.io](https://hachyderm.io/@Alister)
 * [abulman.co.uk](https://abulman.co.uk)
 * Twitter: [@alister_b](https://twitter.com/alister_b)
 * [Stack Overflow](https://stackoverflow.com/users/6216/alister-bulman)
