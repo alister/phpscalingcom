@@ -24,6 +24,11 @@ comment: false
 linenos: table
 ---
 
+{{% notice info "Comments?" %}}
+You can comment on this article on my [Mastodon post](https://hachyderm.io/@alister/115927510278696934) for "Solving 'WP-CLI Updates Not Found'"
+{{% /notice %}}
+
+
 That's one (slightly annoying) problem solved - I've managed to upgrade the WordPress version and plugins on <https://abulman.co.uk/> on the second attempt.
 
 I use [WP-CLI](https://wp-cli.org/) to do it all from the command line (and then commit all the changes into Git), but when I last tried to update, it had been reporting that everything was already up to date - even though the dashboard was lit up like an Xmas tree with new version notifications.
