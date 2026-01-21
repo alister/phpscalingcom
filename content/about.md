@@ -8,6 +8,8 @@ thumbnail = "/images/20120904-133752.Throne_crop.jpg"
 lastmod = 2023-06-28
 +++
 
+<img src="/images/20120904-133752.Throne_crop.jpg" width="200" height="200"  align="left" style="margin-right: 1rem" />
+
 Hello. I'm [Alister Bulman](https://www.google.com/search?q=alister+bulman) (ode to the usefulness of a unique name). I live in West London, but I lived for most of my life in Bournemouth, on the south coast of the UK.
 
 This is the home for my technical discussions, suggestions, links to some very interesting posts I've seen elsewhere (hopefully good), and more than the odd rant, about other developers, technologies and anything else that's vaguely related.

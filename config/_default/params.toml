@@ -7,7 +7,7 @@ fediverse_creator = "@Alister@hachyderm.io"
 #TODO mastodon = "https://hachyderm.io/@Alister"
 fediverse_creator_url = "https://hachyderm.io/@Alister"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Back-end PHP developer - specialising in Symfony, code quality and system optimisation."
+introDescription = "Back-end PHP developer - specialising in Symfony, code quality and system optimisation. Available for remote/UK-based work as a Senior/Staff engineer."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 keywords = ["php", "scaling", "phpscaling"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
@@ -141,7 +141,7 @@ showRelatedInSidebar = true
 # website author
 [author]
 name = "Alister Bulman"
-# photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+# photo = "/images/20120904-133752.Throne_crop.jpg" #include this if you would like to show the author photo on the sidebar
 
 # [plausible_analytics]
 # enable = false # to enable plausible analytics set to true.
