@@ -11,8 +11,8 @@ Just a quick note to point out a couple of presentations on Queuing. I've recent
 Either way, you are welcome to look at them online, and the original html source, and some source code, are all online at [http://github.com/alister](http://github.com/alister)
 
 * [Beanstalkd: An Introduction](http://abulman.co.uk/presentations/Beanstalkd-2010-05-06/ "Beanstalkd: An Introduction")
+  * [https://github.com/alister/Beanstalkd-Presentation](https://github.com/alister/Beanstalkd-Presentation)
+  * [https://github.com/alister/beanstalkd-demo](https://github.com/alister/beanstalkd-demo)
 * [The Good And Bad Of Queuing](http://abulman.co.uk/presentations/QueueGoodBad-2012-07-16/ "The Good And Bad Of Queuing")
+	* [https://github.com/alister/QueueGoodBad-Presentation](https://github.com/alister/QueueGoodBad-Presentation)
 
-* [https://github.com/alister/Beanstalkd-Presentation](https://github.com/alister/Beanstalkd-Presentation)
-* [https://github.com/alister/QueueGoodBad-Presentation](https://github.com/alister/QueueGoodBad-Presentation)
-* [https://github.com/alister/beanstalkd-demo](https://github.com/alister/beanstalkd-demo)
