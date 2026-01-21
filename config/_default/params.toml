@@ -52,7 +52,7 @@ fontsDir = "fonts/" # without a leading forward slash
 
 # Social media sharing image: Will be used on Twitter, Facebook, LinkedIn, etc.
 # when a given page has no other image present.
-fallBackOgImage = "images/thumbnail.png"
+fallBackOgImage = "icons/android-chrome-256x256.png"
 
 # Logo image
 logo = "logos/logo.png"
