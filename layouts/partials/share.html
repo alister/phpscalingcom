@@ -1,0 +1,7 @@
+{{- $s := T "share_on" }}
+<div class="post_share">
+	{{ $s }}
+	<a href="https://share.joinmastodon.org/#text={{- .Title }}:%20{{ .Permalink }}" target="_blank" rel="noopener"   class="mastodon">{{ partial "sprite" (dict "icon" "mastodon") }}</a>
+	<a href="{{ .Permalink }}" title="Copy Link" class="link link_yank">
+      {{ partial "sprite" (dict "icon" "copy") }}</a>
+</div>
