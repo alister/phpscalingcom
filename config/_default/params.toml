@@ -4,7 +4,6 @@ enableSearch = true
 # socials
 twitter = "@alister_b"
 fediverse_creator = "@Alister@hachyderm.io"
-#TODO mastodon = "https://hachyderm.io/@Alister"
 fediverse_creator_url = "https://hachyderm.io/@Alister"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "Back-end PHP developer - specialising in Symfony, code quality and system optimisation. Available for remote/UK-based work as a Senior/Staff engineer."
